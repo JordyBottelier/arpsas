@@ -1,0 +1,545 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dbo="http://dbpedia.org/ontology/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:vre4eic="http://www.vre4eic.com/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:cerif="http://eurocris.org/ontology/cerif#"
+    xmlns:bibo="http://purl.org/ontology/bibo/"
+    xmlns:ns0="http://purl.org/vocab/vann/"
+    xmlns:gml="http://ww.opengis.net/gml/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:media="http://www.w3.org/ns/ma-ont#">
+  <cerif:Product rdf:about="http://www.vre4eic.com/ckancerif/resultProduct/fa0be7f2-d21e-4fd6-a59a-e6176ef1d18c">
+    <cerif:is_source_of>
+      <cerif:SimpleLinkEntity rdf:about="urn:uuid:ebf5f4b0-457a-4004-ad2a-33a0207bf5a2">
+        <cerif:has_classification>
+          <cerif:Classification rdf:about="http://www.vre4eic.com/ckancerif/classificationDatasetIsOpen/ProprietaryDataset">
+            <cerif:has_term xml:lang="en">proprietary dataset</cerif:has_term>
+            <cerif:has_classificationScheme>
+              <cerif:ClassificationScheme rdf:about="http://www.vre4eic.com/ckancerif/scheme/DatasetIsOpen"/>
+            </cerif:has_classificationScheme>
+          </cerif:Classification>
+        </cerif:has_classification>
+        <cerif:has_endDate>2099-12-31T23:59:59-01:00</cerif:has_endDate>
+        <cerif:has_startDate>1901-01-01T00:0000-01:00</cerif:has_startDate>
+      </cerif:SimpleLinkEntity>
+    </cerif:is_source_of>
+    <cerif:is_destination_of>
+      <cerif:FullLinkEntity rdf:about="urn:uuid:a0407acc-b126-47f9-84d4-f0674b732e99">
+        <cerif:has_source>
+          <cerif:OrganisationUnit rdf:about="http://www.vre4eic.com/ckancerif/organisationUnit/11680099-3fd0-427c-8cfc-b1fbcde0623e"/>
+        </cerif:has_source>
+        <cerif:has_endDate>2099-12-31T23:59:59-01:00</cerif:has_endDate>
+        <cerif:has_startDate>1901-01-01T00:0000-01:00</cerif:has_startDate>
+        <cerif:has_classification>
+          <cerif:Classification rdf:about="http://www.vre4eic.com/ckancerif/classification/DatasetGroupsRelation"/>
+        </cerif:has_classification>
+      </cerif:FullLinkEntity>
+    </cerif:is_destination_of>
+    <cerif:is_source_of>
+      <cerif:FullLinkEntity rdf:about="urn:uuid:8ec0290c-7775-43c4-8b9e-65f64871b327">
+        <cerif:has_destination>
+          <cerif:Measurement rdf:about="http://www.vre4eic.com/ckancerif/gis_geonetwork%3AGN_URL/http%3A//geonetwork.d4science.org%3A8080/geonetwork"/>
+        </cerif:has_destination>
+        <cerif:has_endDate>2099-12-31T23:59:59-01:00</cerif:has_endDate>
+        <cerif:has_startDate>1901-01-01T00:0000-01:00</cerif:has_startDate>
+        <cerif:has_classification>
+          <cerif:Classification rdf:about="http://www.vre4eic.com/ckancerif/classification/DatasetAdditionalInformation"/>
+        </cerif:has_classification>
+      </cerif:FullLinkEntity>
+    </cerif:is_source_of>
+    <cerif:is_source_of>
+      <cerif:FullLinkEntity rdf:about="urn:uuid:4cf3530f-7a19-482d-8793-16d55bc6856a">
+        <cerif:has_destination>
+          <cerif:Measurement rdf:about="http://www.vre4eic.com/ckancerif/system%3Atype/Dataset"/>
+        </cerif:has_destination>
+        <cerif:has_endDate>2099-12-31T23:59:59-01:00</cerif:has_endDate>
+        <cerif:has_startDate>1901-01-01T00:0000-01:00</cerif:has_startDate>
+        <cerif:has_classification rdf:resource="http://www.vre4eic.com/ckancerif/classification/DatasetAdditionalInformation"/>
+      </cerif:FullLinkEntity>
+    </cerif:is_source_of>
+    <cerif:is_destination_of>
+      <cerif:FullLinkEntity rdf:about="urn:uuid:814cb2f6-813b-4b61-9428-9f67ec6bccbd">
+        <cerif:has_source>
+          <cerif:Publication rdf:about="urn:uuid:2a976d3c-bae9-400c-8fe3-3d983644a4c9">
+            <cerif:has_title>null</cerif:has_title>
+            <cerif:has_identifier>
+              <xsd:string rdf:about="http://www.vre4eic.com/ckancerif/resultPublicationIdentifier/null">
+                <cerif:has_id_value>null</cerif:has_id_value>
+                <cerif:has_URI rdf:resource="http://www.vre4eic.com/ckancerif/resultPublicationIdentifier/null"/>
+                <rdf:type rdf:resource="http://eurocris.org/ontology/cerif#FederatedIdentifier"/>
+              </xsd:string>
+            </cerif:has_identifier>
+          </cerif:Publication>
+        </cerif:has_source>
+        <cerif:has_endDate>2099-12-31T23:59:59-01:00</cerif:has_endDate>
+        <cerif:has_startDate>1901-01-01T00:0000-01:00</cerif:has_startDate>
+        <cerif:has_classification>
+          <cerif:Classification rdf:about="http://www.vre4eic.com/ckancerif/classificationRelation/IsLicenseOf"/>
+        </cerif:has_classification>
+      </cerif:FullLinkEntity>
+    </cerif:is_destination_of>
+    <cerif:is_source_of>
+      <cerif:FullLinkEntity rdf:about="urn:uuid:24b20909-b8da-48d5-9bf7-a15645ab86ee">
+        <cerif:has_destination>
+          <cerif:Measurement rdf:about="http://www.vre4eic.com/ckancerif/topic_category/environment"/>
+        </cerif:has_destination>
+        <cerif:has_endDate>2099-12-31T23:59:59-01:00</cerif:has_endDate>
+        <cerif:has_startDate>1901-01-01T00:0000-01:00</cerif:has_startDate>
+        <cerif:has_classification rdf:resource="http://www.vre4eic.com/ckancerif/classification/DatasetAdditionalInformation"/>
+      </cerif:FullLinkEntity>
+    </cerif:is_source_of>
+    <cerif:is_source_of>
+      <cerif:FullLinkEntity rdf:about="urn:uuid:a6c0b729-b614-4798-bbab-9b01b5c46a70">
+        <cerif:has_destination>
+          <cerif:Product rdf:about="http://www.vre4eic.com/ckancerif/resultProduct/730e5b91-2265-431e-b033-7f310474e4f3"/>
+        </cerif:has_destination>
+        <cerif:has_endDate>2099-12-31T23:59:59-01:00</cerif:has_endDate>
+        <cerif:has_startDate>1901-01-01T00:0000-01:00</cerif:has_startDate>
+        <cerif:has_classification rdf:resource="http://www.vre4eic.com/ckancerif/classification/DatasetGroupsRelation"/>
+      </cerif:FullLinkEntity>
+    </cerif:is_source_of>
+    <cerif:is_source_of>
+      <cerif:FullLinkEntity rdf:about="urn:uuid:678c46dd-f9aa-44f6-b9fb-de060b0553fd">
+        <cerif:has_destination>
+          <cerif:Measurement rdf:about="http://www.vre4eic.com/ckancerif/Item%20URL/http%3A//data.d4science.org/ctlg/gCubeApps/acanthostracion-quadricornis-aquamaps-native-2050-raster"/>
+        </cerif:has_destination>
+        <cerif:has_endDate>2099-12-31T23:59:59-01:00</cerif:has_endDate>
+        <cerif:has_startDate>1901-01-01T00:0000-01:00</cerif:has_startDate>
+        <cerif:has_classification rdf:resource="http://www.vre4eic.com/ckancerif/classification/DatasetAdditionalInformation"/>
+      </cerif:FullLinkEntity>
+    </cerif:is_source_of>
+    <cerif:is_source_of>
+      <cerif:FullLinkEntity rdf:about="urn:uuid:0a2a9834-9727-4c27-816d-1d9bb09ac191">
+        <cerif:has_destination>
+          <cerif:Measurement rdf:about="http://www.vre4eic.com/ckancerif/gis_geonetwork%3AGN_Metadata_Show/http%3A//geonetwork.d4science.org%3A8080/geonetwork/srv/en/metadata.show%3Fuuid%3De40a17d9-e017-43fe-9d25-1ad2069c1bcf"/>
+        </cerif:has_destination>
+        <cerif:has_endDate>2099-12-31T23:59:59-01:00</cerif:has_endDate>
+        <cerif:has_startDate>1901-01-01T00:0000-01:00</cerif:has_startDate>
+        <cerif:has_classification rdf:resource="http://www.vre4eic.com/ckancerif/classification/DatasetAdditionalInformation"/>
+      </cerif:FullLinkEntity>
+    </cerif:is_source_of>
+    <cerif:has_versionInformation>null</cerif:has_versionInformation>
+    <cerif:has_identifier>
+      <xsd:string rdf:about="http://www.vre4eic.com/ckancerif/resultProductIdentifier/fa0be7f2-d21e-4fd6-a59a-e6176ef1d18c">
+        <cerif:has_id_value>fa0be7f2-d21e-4fd6-a59a-e6176ef1d18c</cerif:has_id_value>
+        <cerif:has_URI rdf:resource="http://www.vre4eic.com/ckancerif/resultProductIdentifier/fa0be7f2-d21e-4fd6-a59a-e6176ef1d18c"/>
+        <rdfs:label>Result Product Identifier fa0be7f2-d21e-4fd6-a59a-e6176ef1d18c</rdfs:label>
+        <rdf:type rdf:resource="http://eurocris.org/ontology/cerif#FederatedIdentifier"/>
+      </xsd:string>
+    </cerif:has_identifier>
+    <cerif:is_source_of>
+      <cerif:FullLinkEntity rdf:about="urn:uuid:07d3c543-5016-459f-aa2f-1f980be2ae62">
+        <cerif:has_destination>
+          <cerif:Measurement rdf:about="http://www.vre4eic.com/ckancerif/metadata-language/eng"/>
+        </cerif:has_destination>
+        <cerif:has_endDate>2099-12-31T23:59:59-01:00</cerif:has_endDate>
+        <cerif:has_startDate>1901-01-01T00:0000-01:00</cerif:has_startDate>
+        <cerif:has_classification rdf:resource="http://www.vre4eic.com/ckancerif/classification/DatasetAdditionalInformation"/>
+      </cerif:FullLinkEntity>
+    </cerif:is_source_of>
+    <cerif:is_source_of>
+      <cerif:SimpleLinkEntity rdf:about="urn:uuid:91ddd4ed-1ed5-4fcc-8dbb-43ac1e1bdd7c">
+        <cerif:has_classification>
+          <cerif:Classification rdf:about="urn:uuid:ffcbd456-84eb-4be8-a96b-868fd5bbfe1a"/>
+        </cerif:has_classification>
+        <cerif:has_endDate>2099-12-31T23:59:59-01:00</cerif:has_endDate>
+        <cerif:has_startDate>1901-01-01T00:0000-01:00</cerif:has_startDate>
+      </cerif:SimpleLinkEntity>
+    </cerif:is_source_of>
+    <cerif:is_source_of>
+      <cerif:FullLinkEntity rdf:about="urn:uuid:8ca1b316-f8ad-4a7c-ad8a-68295d64d42e">
+        <cerif:has_destination>
+          <cerif:Medium rdf:about="http://www.vre4eic.com/ckancerif/medium/659d662c-d460-4694-8d37-87ce2ab213a6"/>
+        </cerif:has_destination>
+        <cerif:has_endDate>2099-12-31T23:59:59-01:00</cerif:has_endDate>
+        <cerif:has_startDate>1901-01-01T00:0000-01:00</cerif:has_startDate>
+        <cerif:has_classification>
+          <cerif:Classification rdf:about="http://www.vre4eic.com/ckancerif/classification/DatasetResourceRelation"/>
+        </cerif:has_classification>
+      </cerif:FullLinkEntity>
+    </cerif:is_source_of>
+    <cerif:is_source_of>
+      <cerif:SimpleLinkEntity rdf:about="urn:uuid:f99dd081-4437-4f9c-a8f7-d519bac67816">
+        <cerif:has_classification>
+          <cerif:Classification rdf:about="http://www.vre4eic.com/ckancerif/classificationDatasetState/DatasetActive">
+            <cerif:has_term>active dataset</cerif:has_term>
+            <cerif:has_classificationScheme>
+              <cerif:ClassificationScheme rdf:about="http://www.vre4eic.com/ckancerif/scheme/DatasetState"/>
+            </cerif:has_classificationScheme>
+          </cerif:Classification>
+        </cerif:has_classification>
+        <cerif:has_endDate>2099-12-31T23:59:59-01:00</cerif:has_endDate>
+        <cerif:has_startDate>1901-01-01T00:0000-01:00</cerif:has_startDate>
+      </cerif:SimpleLinkEntity>
+    </cerif:is_source_of>
+    <cerif:is_destination_of>
+      <cerif:LinkEntityWithProvisionOrderIPR rdf:about="urn:uuid:d333731b-d63c-469d-a752-e78c7161f753">
+        <cerif:has_source>
+          <cerif:Person rdf:about="urn:uuid:bfa6f2ee-5f2b-40eb-a390-bc145d531308">
+            <cerif:is_source_of>
+              <cerif:FullLinkEntity rdf:about="urn:uuid:cf0fbae3-f577-4547-b50f-2aa6a9f29107">
+                <cerif:has_destination>
+                  <cerif:ElectronicAddress rdf:about="urn:uuid:e6961e2c-a870-4fce-8d14-f8649cef7435">
+                    <cerif:has_URI>null</cerif:has_URI>
+                  </cerif:ElectronicAddress>
+                </cerif:has_destination>
+                <cerif:has_endDate>2099-12-31T23:59:59-01:00</cerif:has_endDate>
+                <cerif:has_startDate>1901-01-01T00:0000-01:00</cerif:has_startDate>
+                <cerif:has_classification>
+                  <cerif:Classification rdf:about="http://www.vre4eic.com/ckancerif/classificationPersonContactDetails/Email"/>
+                </cerif:has_classification>
+              </cerif:FullLinkEntity>
+            </cerif:is_source_of>
+            <cerif:is_source_of>
+              <cerif:FullLinkEntity rdf:about="urn:uuid:8da6adc3-47d5-46ed-82f4-1707fd67997d">
+                <cerif:has_destination>
+                  <cerif:PersonName rdf:about="urn:uuid:c7d25ab6-3bc0-4e44-8d4a-81241d7a83ca">
+                    <cerif:has_name>null</cerif:has_name>
+                  </cerif:PersonName>
+                </cerif:has_destination>
+                <cerif:has_endDate>2099-12-31T23:59:59-01:00</cerif:has_endDate>
+                <cerif:has_startDate>1901-01-01T00:0000-01:00</cerif:has_startDate>
+                <cerif:has_classification>
+                  <cerif:Classification rdf:about="http://www.vre4eic.com/ckancerif/classificationPersonNames/PresentedName"/>
+                </cerif:has_classification>
+              </cerif:FullLinkEntity>
+            </cerif:is_source_of>
+          </cerif:Person>
+        </cerif:has_source>
+        <cerif:has_classification>
+          <cerif:Classification rdf:about="http://www.vre4eic.com/ckancerif/personClassification/Author"/>
+        </cerif:has_classification>
+      </cerif:LinkEntityWithProvisionOrderIPR>
+    </cerif:is_destination_of>
+    <cerif:is_source_of>
+      <cerif:FullLinkEntity rdf:about="urn:uuid:7e6ebefa-19d0-4c7e-9427-6b7fa0a6cbe3">
+        <cerif:has_destination>
+          <cerif:Measurement rdf:about="http://www.vre4eic.com/ckancerif/bbox-west-long/-97.75"/>
+        </cerif:has_destination>
+        <cerif:has_endDate>2099-12-31T23:59:59-01:00</cerif:has_endDate>
+        <cerif:has_startDate>1901-01-01T00:0000-01:00</cerif:has_startDate>
+        <cerif:has_classification rdf:resource="http://www.vre4eic.com/ckancerif/classification/DatasetAdditionalInformation"/>
+      </cerif:FullLinkEntity>
+    </cerif:is_source_of>
+    <cerif:is_source_of>
+      <cerif:SimpleLinkEntity rdf:about="urn:uuid:06296926-5e26-4c7a-8626-9bc9f9214094">
+        <cerif:has_startDate>2017-12-25T07:01:15.000065</cerif:has_startDate>
+        <cerif:has_classification>
+          <xsd:string rdf:about="http://www.vre4eic.com/ckancerif/classificationEntityType/dataset">
+            <cerif:has_term>dataset</cerif:has_term>
+            <cerif:has_URI rdf:resource="http://www.vre4eic.com/ckancerif/classificationEntityType/dataset"/>
+            <cerif:has_classificationScheme>
+              <cerif:ClassificationScheme rdf:about="http://www.vre4eic.com/ckancerif/scheme/EntityType"/>
+            </cerif:has_classificationScheme>
+            <rdf:type rdf:resource="http://eurocris.org/ontology/cerif#Classification"/>
+          </xsd:string>
+        </cerif:has_classification>
+        <cerif:has_endDate>2099-12-31T23:59:59-01:00</cerif:has_endDate>
+      </cerif:SimpleLinkEntity>
+    </cerif:is_source_of>
+    <cerif:is_source_of>
+      <cerif:SimpleLinkEntity rdf:about="urn:uuid:1de9d6fa-74cb-4259-b01c-5ef8b126c397">
+        <cerif:has_classification>
+          <cerif:Classification rdf:about="urn:uuid:8a04b2ed-6b7a-4e41-95c4-01d02fba4f1f"/>
+        </cerif:has_classification>
+        <cerif:has_endDate>2099-12-31T23:59:59-01:00</cerif:has_endDate>
+        <cerif:has_startDate>1901-01-01T00:0000-01:00</cerif:has_startDate>
+      </cerif:SimpleLinkEntity>
+    </cerif:is_source_of>
+    <cerif:is_source_of>
+      <cerif:FullLinkEntity rdf:about="urn:uuid:28829cfd-4298-4491-9e69-d0f59080943e">
+        <cerif:has_destination>
+          <cerif:Measurement rdf:about="http://www.vre4eic.com/ckancerif/responsible-party/%5B%7B%22name%22%3A%20%22%22%2C%20%22roles%22%3A%20%5B%22originator%22%5D%7D%5D"/>
+        </cerif:has_destination>
+        <cerif:has_endDate>2099-12-31T23:59:59-01:00</cerif:has_endDate>
+        <cerif:has_startDate>1901-01-01T00:0000-01:00</cerif:has_startDate>
+        <cerif:has_classification rdf:resource="http://www.vre4eic.com/ckancerif/classification/DatasetAdditionalInformation"/>
+      </cerif:FullLinkEntity>
+    </cerif:is_source_of>
+    <cerif:is_destination_of>
+      <cerif:LinkEntityWithProvisionOrderIPR rdf:about="urn:uuid:ca1ab15a-8912-46ea-b13b-a6b8b83e24a8">
+        <cerif:has_source>
+          <cerif:Person rdf:about="urn:uuid:45bcd634-407f-4771-8415-d695de938aa1">
+            <cerif:is_source_of>
+              <cerif:FullLinkEntity rdf:about="urn:uuid:57e95593-9ad2-4270-978c-ba1c976926f3">
+                <cerif:has_destination>
+                  <cerif:ElectronicAddress rdf:about="urn:uuid:7ad4e34e-b46f-4da2-9cbb-07137f9e7642">
+                    <cerif:has_URI>bluebridge.catalogue@d4science.org</cerif:has_URI>
+                  </cerif:ElectronicAddress>
+                </cerif:has_destination>
+                <cerif:has_endDate>2099-12-31T23:59:59-01:00</cerif:has_endDate>
+                <cerif:has_startDate>1901-01-01T00:0000-01:00</cerif:has_startDate>
+                <cerif:has_classification rdf:resource="http://www.vre4eic.com/ckancerif/classificationPersonContactDetails/Email"/>
+              </cerif:FullLinkEntity>
+            </cerif:is_source_of>
+            <cerif:is_source_of>
+              <cerif:FullLinkEntity rdf:about="urn:uuid:615af300-64aa-4210-ac85-8533576f9b1e">
+                <cerif:has_destination>
+                  <cerif:PersonName rdf:about="urn:uuid:1ee63976-6c8d-493b-ae46-9d8766d8a0de">
+                    <cerif:has_name>bb</cerif:has_name>
+                  </cerif:PersonName>
+                </cerif:has_destination>
+                <cerif:has_endDate>2099-12-31T23:59:59-01:00</cerif:has_endDate>
+                <cerif:has_startDate>1901-01-01T00:0000-01:00</cerif:has_startDate>
+                <cerif:has_classification rdf:resource="http://www.vre4eic.com/ckancerif/classificationPersonNames/PresentedName"/>
+              </cerif:FullLinkEntity>
+            </cerif:is_source_of>
+          </cerif:Person>
+        </cerif:has_source>
+        <cerif:has_classification>
+          <cerif:Classification rdf:about="http://www.vre4eic.com/ckancerif/personClassification/Maintainer"/>
+        </cerif:has_classification>
+      </cerif:LinkEntityWithProvisionOrderIPR>
+    </cerif:is_destination_of>
+    <cerif:has_description>This acanthostracion quadricornis Species Distribution Map for 2050 has been generated with the AquaMaps methodology by exploiting the technology and the computational resources provided by iMarine. In particular, this map has been produced using the HSPEC Native Range dataset, generated using the AquaMaps NativeRange 2050 algorithm. Hosted on the D4Science Thredds CataSystem.out.println: http://thredds.d4science.org</cerif:has_description>
+    <cerif:is_source_of>
+      <cerif:SimpleLinkEntity rdf:about="urn:uuid:5646e1da-8956-4217-bbf6-27431fc9ba6f">
+        <cerif:has_classification>
+          <cerif:Classification rdf:about="urn:uuid:13b48baa-6d12-42d0-8f67-e83461eaed4b"/>
+        </cerif:has_classification>
+        <cerif:has_endDate>2099-12-31T23:59:59-01:00</cerif:has_endDate>
+        <cerif:has_startDate>1901-01-01T00:0000-01:00</cerif:has_startDate>
+      </cerif:SimpleLinkEntity>
+    </cerif:is_source_of>
+    <cerif:is_source_of>
+      <cerif:SimpleLinkEntity rdf:about="urn:uuid:244aaa00-4bcc-41f7-b98e-c87065f65639">
+        <cerif:has_classification>
+          <cerif:Classification rdf:about="urn:uuid:28ce3b1a-1044-4a6e-aaef-c6e3f779192f"/>
+        </cerif:has_classification>
+        <cerif:has_endDate>2099-12-31T23:59:59-01:00</cerif:has_endDate>
+        <cerif:has_startDate>1901-01-01T00:0000-01:00</cerif:has_startDate>
+      </cerif:SimpleLinkEntity>
+    </cerif:is_source_of>
+    <cerif:is_source_of>
+      <cerif:SimpleLinkEntity rdf:about="urn:uuid:f43bc71d-e3d9-4715-b937-91356f8f1fcb">
+        <cerif:has_classification>
+          <cerif:Classification rdf:about="http://www.vre4eic.com/ckancerif/classificationDatasetIsPrivate/PublicDataset">
+            <cerif:has_term xml:lang="en">public dataset</cerif:has_term>
+            <cerif:has_classificationScheme>
+              <cerif:ClassificationScheme rdf:about="http://www.vre4eic.com/ckancerif/scheme/DatasetIsPrivate"/>
+            </cerif:has_classificationScheme>
+          </cerif:Classification>
+        </cerif:has_classification>
+        <cerif:has_endDate>2099-12-31T23:59:59-01:00</cerif:has_endDate>
+        <cerif:has_startDate>1901-01-01T00:0000-01:00</cerif:has_startDate>
+      </cerif:SimpleLinkEntity>
+    </cerif:is_source_of>
+    <cerif:is_source_of>
+      <cerif:FullLinkEntity rdf:about="urn:uuid:b4fc55c2-9222-41ab-8d32-8ccb2c0e884b">
+        <cerif:has_destination>
+          <cerif:Measurement rdf:about="http://www.vre4eic.com/ckancerif/frequency-of-update/asNeeded"/>
+        </cerif:has_destination>
+        <cerif:has_endDate>2099-12-31T23:59:59-01:00</cerif:has_endDate>
+        <cerif:has_startDate>1901-01-01T00:0000-01:00</cerif:has_startDate>
+        <cerif:has_classification rdf:resource="http://www.vre4eic.com/ckancerif/classification/DatasetAdditionalInformation"/>
+      </cerif:FullLinkEntity>
+    </cerif:is_source_of>
+    <cerif:has_name>acanthostracion quadricornis Aquamaps Native 2050 Raster</cerif:has_name>
+    <cerif:is_source_of>
+      <cerif:FullLinkEntity rdf:about="urn:uuid:05c07a0e-91ec-43e9-b3b2-aff69235422b">
+        <cerif:has_destination>
+          <cerif:Measurement rdf:about="http://www.vre4eic.com/ckancerif/guid/e40a17d9-e017-43fe-9d25-1ad2069c1bcf"/>
+        </cerif:has_destination>
+        <cerif:has_endDate>2099-12-31T23:59:59-01:00</cerif:has_endDate>
+        <cerif:has_startDate>1901-01-01T00:0000-01:00</cerif:has_startDate>
+        <cerif:has_classification rdf:resource="http://www.vre4eic.com/ckancerif/classification/DatasetAdditionalInformation"/>
+      </cerif:FullLinkEntity>
+    </cerif:is_source_of>
+    <cerif:has_identifier>
+      <xsd:string rdf:about="http://www.vre4eic.com/ckancerif/resultProductRevisionIdentifier/73fa1ee3-7bca-467b-a1ac-d3147cb6d337">
+        <cerif:is_source_of>
+          <cerif:SimpleLinkEntity rdf:about="urn:uuid:452970eb-82d1-41cd-992e-3be1aa2f32bd">
+            <cerif:has_startDate>2017-12-25T07:01:20.054714</cerif:has_startDate>
+            <cerif:has_endDate>2099-12-31T23:59:59-01:00</cerif:has_endDate>
+            <cerif:has_classification>
+              <cerif:Classification rdf:about="http://www.vre4eic.com/ckancerif/classification/RevisionIdentifier"/>
+            </cerif:has_classification>
+          </cerif:SimpleLinkEntity>
+        </cerif:is_source_of>
+        <cerif:has_id_value>73fa1ee3-7bca-467b-a1ac-d3147cb6d337</cerif:has_id_value>
+        <cerif:has_URI rdf:resource="http://www.vre4eic.com/ckancerif/resultProductRevisionIdentifier/73fa1ee3-7bca-467b-a1ac-d3147cb6d337"/>
+        <rdfs:label>Result Product Revision Identifier 73fa1ee3-7bca-467b-a1ac-d3147cb6d337</rdfs:label>
+        <rdf:type rdf:resource="http://eurocris.org/ontology/cerif#FederatedIdentifier"/>
+      </xsd:string>
+    </cerif:has_identifier>
+    <cerif:is_source_of>
+      <cerif:FullLinkEntity rdf:about="urn:uuid:806cfc15-532a-4e4f-b5e1-7fbb7a5df7be">
+        <cerif:has_destination>
+          <cerif:Measurement rdf:about="http://www.vre4eic.com/ckancerif/spatial/%7B%22type%22%3A%20%22Polygon%22%2C%20%22coordinates%22%3A%20%5B%5B%5B-97.75%2C%20-23.75%5D%2C%20%5B27.75%2C%20-23.75%5D%2C%20%5B27.75%2C%2043.25%5D%2C%20%5B-97.75%2C%2043.25%5D%2C%20%5B-97.75%2C%20-23.75%5D%5D%5D%7D"/>
+        </cerif:has_destination>
+        <cerif:has_endDate>2099-12-31T23:59:59-01:00</cerif:has_endDate>
+        <cerif:has_startDate>1901-01-01T00:0000-01:00</cerif:has_startDate>
+        <cerif:has_classification rdf:resource="http://www.vre4eic.com/ckancerif/classification/DatasetAdditionalInformation"/>
+      </cerif:FullLinkEntity>
+    </cerif:is_source_of>
+    <cerif:is_source_of>
+      <cerif:SimpleLinkEntity rdf:about="urn:uuid:e8c3497c-1144-499b-8b4c-813a6ce8f395">
+        <cerif:has_classification>
+          <cerif:Classification rdf:about="urn:uuid:a8ab350f-0241-4e42-b9f5-b0209804b2d2"/>
+        </cerif:has_classification>
+        <cerif:has_endDate>2099-12-31T23:59:59-01:00</cerif:has_endDate>
+        <cerif:has_startDate>1901-01-01T00:0000-01:00</cerif:has_startDate>
+      </cerif:SimpleLinkEntity>
+    </cerif:is_source_of>
+    <cerif:is_source_of>
+      <cerif:FullLinkEntity rdf:about="urn:uuid:c52048b7-9766-4427-bdd0-7b884eb3ca96">
+        <cerif:has_destination>
+          <cerif:Measurement rdf:about="http://www.vre4eic.com/ckancerif/bbox-east-long/27.75"/>
+        </cerif:has_destination>
+        <cerif:has_endDate>2099-12-31T23:59:59-01:00</cerif:has_endDate>
+        <cerif:has_startDate>1901-01-01T00:0000-01:00</cerif:has_startDate>
+        <cerif:has_classification rdf:resource="http://www.vre4eic.com/ckancerif/classification/DatasetAdditionalInformation"/>
+      </cerif:FullLinkEntity>
+    </cerif:is_source_of>
+    <cerif:has_URI>null</cerif:has_URI>
+    <cerif:has_identifier>
+      <xsd:string rdf:about="http://www.vre4eic.com/ckancerif/resultProductName/acanthostracion-quadricornis-aquamaps-native-2050-raster">
+        <cerif:has_id_value>acanthostracion-quadricornis-aquamaps-native-2050-raster</cerif:has_id_value>
+        <cerif:has_URI rdf:resource="http://www.vre4eic.com/ckancerif/resultProductName/acanthostracion-quadricornis-aquamaps-native-2050-raster"/>
+        <rdfs:label>Result Product Name acanthostracion-quadricornis-aquamaps-native-2050-raster</rdfs:label>
+        <rdf:type rdf:resource="http://eurocris.org/ontology/cerif#FederatedIdentifier"/>
+      </xsd:string>
+    </cerif:has_identifier>
+    <cerif:is_source_of>
+      <cerif:SimpleLinkEntity rdf:about="urn:uuid:6a538234-1e29-4a89-86d9-12dca756b0bf">
+        <cerif:has_classification>
+          <cerif:Classification rdf:about="urn:uuid:502bb4a0-ceb5-4edd-af61-32966c90677f"/>
+        </cerif:has_classification>
+        <cerif:has_endDate>2099-12-31T23:59:59-01:00</cerif:has_endDate>
+        <cerif:has_startDate>1901-01-01T00:0000-01:00</cerif:has_startDate>
+      </cerif:SimpleLinkEntity>
+    </cerif:is_source_of>
+    <cerif:is_source_of>
+      <cerif:SimpleLinkEntity rdf:about="urn:uuid:375b88ee-e528-42ef-b6de-19fc96a8425a">
+        <cerif:has_classification>
+          <cerif:Classification rdf:about="urn:uuid:7bb100b2-df1a-4725-b077-5d30eccc3e9d"/>
+        </cerif:has_classification>
+        <cerif:has_endDate>2099-12-31T23:59:59-01:00</cerif:has_endDate>
+        <cerif:has_startDate>1901-01-01T00:0000-01:00</cerif:has_startDate>
+      </cerif:SimpleLinkEntity>
+    </cerif:is_source_of>
+    <cerif:is_source_of>
+      <cerif:SimpleLinkEntity rdf:about="urn:uuid:fe3e1ba8-f01f-4833-bdde-04fd98752356">
+        <cerif:has_classification>
+          <cerif:Classification rdf:about="urn:uuid:143b0383-dedf-4d22-8c67-f46b0d78f606"/>
+        </cerif:has_classification>
+        <cerif:has_endDate>2099-12-31T23:59:59-01:00</cerif:has_endDate>
+        <cerif:has_startDate>1901-01-01T00:0000-01:00</cerif:has_startDate>
+      </cerif:SimpleLinkEntity>
+    </cerif:is_source_of>
+    <cerif:is_source_of>
+      <cerif:FullLinkEntity rdf:about="urn:uuid:d18d3c08-ddad-4e4e-8858-dbfd257e0493">
+        <cerif:has_destination>
+          <cerif:Measurement rdf:about="http://www.vre4eic.com/ckancerif/bbox-south-lat/-23.75"/>
+        </cerif:has_destination>
+        <cerif:has_endDate>2099-12-31T23:59:59-01:00</cerif:has_endDate>
+        <cerif:has_startDate>1901-01-01T00:0000-01:00</cerif:has_startDate>
+        <cerif:has_classification rdf:resource="http://www.vre4eic.com/ckancerif/classification/DatasetAdditionalInformation"/>
+      </cerif:FullLinkEntity>
+    </cerif:is_source_of>
+    <cerif:is_source_of>
+      <cerif:FullLinkEntity rdf:about="urn:uuid:f1204307-7a47-4bcc-8052-83a4c23a5565">
+        <cerif:has_destination>
+          <cerif:Medium rdf:about="http://www.vre4eic.com/ckancerif/medium/8c54d8b4-3ed8-4ea6-a0dd-88610e28eab2"/>
+        </cerif:has_destination>
+        <cerif:has_endDate>2099-12-31T23:59:59-01:00</cerif:has_endDate>
+        <cerif:has_startDate>1901-01-01T00:0000-01:00</cerif:has_startDate>
+        <cerif:has_classification rdf:resource="http://www.vre4eic.com/ckancerif/classification/DatasetResourceRelation"/>
+      </cerif:FullLinkEntity>
+    </cerif:is_source_of>
+    <cerif:is_source_of>
+      <cerif:FullLinkEntity rdf:about="urn:uuid:67c1232a-20ad-4c89-888e-f448bc078f41">
+        <cerif:has_destination>
+          <cerif:Measurement rdf:about="http://www.vre4eic.com/ckancerif/spatial_harvester/true"/>
+        </cerif:has_destination>
+        <cerif:has_endDate>2099-12-31T23:59:59-01:00</cerif:has_endDate>
+        <cerif:has_startDate>1901-01-01T00:0000-01:00</cerif:has_startDate>
+        <cerif:has_classification rdf:resource="http://www.vre4eic.com/ckancerif/classification/DatasetAdditionalInformation"/>
+      </cerif:FullLinkEntity>
+    </cerif:is_source_of>
+    <cerif:is_source_of>
+      <cerif:FullLinkEntity rdf:about="urn:uuid:e4fa4104-d843-4ba6-beb5-7f61595b1c0f">
+        <cerif:has_destination>
+          <cerif:Measurement rdf:about="http://www.vre4eic.com/ckancerif/dataset-reference-date/%5B%7B%22type%22%3A%20%22creation%22%2C%20%22value%22%3A%20%222017-12-04T00%3A08%3A19.660%2B01%3A00%22%7D%2C%20%7B%22type%22%3A%20%22publication%22%2C%20%22value%22%3A%20%222017-12-04T00%3A08%3A19.660%2B01%3A00%22%7D%2C%20%7B%22type%22%3A%20%22revision%22%2C%20%22value%22%3A%20%222017-12-04T00%3A08%3A19.660%2B01%3A00%22%7D%5D"/>
+        </cerif:has_destination>
+        <cerif:has_endDate>2099-12-31T23:59:59-01:00</cerif:has_endDate>
+        <cerif:has_startDate>1901-01-01T00:0000-01:00</cerif:has_startDate>
+        <cerif:has_classification rdf:resource="http://www.vre4eic.com/ckancerif/classification/DatasetAdditionalInformation"/>
+      </cerif:FullLinkEntity>
+    </cerif:is_source_of>
+    <cerif:is_source_of>
+      <cerif:FullLinkEntity rdf:about="urn:uuid:13328daa-239a-4874-a93a-e88b8d91807d">
+        <cerif:has_destination>
+          <cerif:Medium rdf:about="http://www.vre4eic.com/ckancerif/medium/b83b3870-f4c3-4d37-8602-4317d21be28a"/>
+        </cerif:has_destination>
+        <cerif:has_endDate>2099-12-31T23:59:59-01:00</cerif:has_endDate>
+        <cerif:has_startDate>1901-01-01T00:0000-01:00</cerif:has_startDate>
+        <cerif:has_classification rdf:resource="http://www.vre4eic.com/ckancerif/classification/DatasetResourceRelation"/>
+      </cerif:FullLinkEntity>
+    </cerif:is_source_of>
+    <rdfs:label>Result Product fa0be7f2-d21e-4fd6-a59a-e6176ef1d18c</rdfs:label>
+    <cerif:is_source_of>
+      <cerif:FullLinkEntity rdf:about="urn:uuid:de1226a0-7a0b-4f56-a008-a238110bebdf">
+        <cerif:has_destination>
+          <cerif:Measurement rdf:about="http://www.vre4eic.com/ckancerif/metadata-date/2017-12-04T00%3A08%3A19.660%2B01%3A00"/>
+        </cerif:has_destination>
+        <cerif:has_endDate>2099-12-31T23:59:59-01:00</cerif:has_endDate>
+        <cerif:has_startDate>1901-01-01T00:0000-01:00</cerif:has_startDate>
+        <cerif:has_classification rdf:resource="http://www.vre4eic.com/ckancerif/classification/DatasetAdditionalInformation"/>
+      </cerif:FullLinkEntity>
+    </cerif:is_source_of>
+    <cerif:is_source_of>
+      <cerif:FullLinkEntity rdf:about="urn:uuid:b2d15d37-0fc7-4126-bf35-8ff1c44fabf5">
+        <cerif:has_destination>
+          <cerif:Measurement rdf:about="http://www.vre4eic.com/ckancerif/bbox-north-lat/43.25"/>
+        </cerif:has_destination>
+        <cerif:has_endDate>2099-12-31T23:59:59-01:00</cerif:has_endDate>
+        <cerif:has_startDate>1901-01-01T00:0000-01:00</cerif:has_startDate>
+        <cerif:has_classification rdf:resource="http://www.vre4eic.com/ckancerif/classification/DatasetAdditionalInformation"/>
+      </cerif:FullLinkEntity>
+    </cerif:is_source_of>
+    <cerif:is_destination_of>
+      <cerif:LinkEntityWithProvisionOrderIPR rdf:about="urn:uuid:72d94f66-e4c8-4ca3-ade1-621bb9fdd894">
+        <cerif:has_source>
+          <cerif:Person rdf:about="urn:uuid:b5465f55-f1f6-492b-a90d-7e231ef7245e">
+            <cerif:has_identifier>
+              <xsd:string rdf:about="http://www.vre4eic.com/ckancerif/creatorIdentifier/ebc02b4a-f774-4e7e-afe1-d52ab93126de">
+                <cerif:has_id_value>ebc02b4a-f774-4e7e-afe1-d52ab93126de</cerif:has_id_value>
+                <cerif:has_URI rdf:resource="http://www.vre4eic.com/ckancerif/creatorIdentifier/ebc02b4a-f774-4e7e-afe1-d52ab93126de"/>
+                <rdf:type rdf:resource="http://eurocris.org/ontology/cerif#FederatedIdentifier"/>
+              </xsd:string>
+            </cerif:has_identifier>
+          </cerif:Person>
+        </cerif:has_source>
+        <cerif:has_classification>
+          <cerif:Classification rdf:about="http://www.vre4eic.com/ckancerif/personClassification/Creator"/>
+        </cerif:has_classification>
+      </cerif:LinkEntityWithProvisionOrderIPR>
+    </cerif:is_destination_of>
+    <cerif:is_source_of>
+      <cerif:FullLinkEntity rdf:about="urn:uuid:361ce2d4-9778-4a55-9447-9e2322624ee3">
+        <cerif:has_destination>
+          <cerif:Medium rdf:about="http://www.vre4eic.com/ckancerif/medium/5dd8f82d-8204-4e11-83b8-39e20c58886d"/>
+        </cerif:has_destination>
+        <cerif:has_endDate>2099-12-31T23:59:59-01:00</cerif:has_endDate>
+        <cerif:has_startDate>1901-01-01T00:0000-01:00</cerif:has_startDate>
+        <cerif:has_classification rdf:resource="http://www.vre4eic.com/ckancerif/classification/DatasetResourceRelation"/>
+      </cerif:FullLinkEntity>
+    </cerif:is_source_of>
+    <cerif:is_source_of>
+      <cerif:FullLinkEntity rdf:about="urn:uuid:3f047a59-bf2d-4aa0-82cb-6cf1f8053eee">
+        <cerif:has_destination>
+          <cerif:Measurement rdf:about="http://www.vre4eic.com/ckancerif/gis_geonetwork%3AGN_Metadata_Source/http%3A//geonetwork.d4science.org%3A8080/geonetwork/srv/en/xml.metadata.get%3Fuuid%3De40a17d9-e017-43fe-9d25-1ad2069c1bcf"/>
+        </cerif:has_destination>
+        <cerif:has_endDate>2099-12-31T23:59:59-01:00</cerif:has_endDate>
+        <cerif:has_startDate>1901-01-01T00:0000-01:00</cerif:has_startDate>
+        <cerif:has_classification rdf:resource="http://www.vre4eic.com/ckancerif/classification/DatasetAdditionalInformation"/>
+      </cerif:FullLinkEntity>
+    </cerif:is_source_of>
+  </cerif:Product>
+</rdf:RDF>

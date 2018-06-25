@@ -1,0 +1,2619 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resource>
+<result>
+    <isopen>false</isopen>
+    <private>false</private>
+    <notes>This dataset lists catch of tuna, tuna-like and major shark species from the International Commission for the Conservation of Atlantic Tunas (ICCAT) from 1950 to 2015. Catches are stratified by year, species, fishing gear, vessel flag reporting country, sampling area. It corresponds to the ICCAT nominal catch (task1) dataset.
+
+
+
+This dataset was downloaded on the ICCAT website. It was then restructured to be in line with the Sardara database structure (columns normalization, names, etc.). However the content of data and the code lists were kept exactly as their are available in the source dataset.
+
+The description below (caracteristics, specific issues and problems that need to be taken into account) is extracted from the ICCAT web page where the dataset has been downloaded.
+
+
+Caracteristics, specific issues and problems that need to be taken into account :
+
+In general, responsibility for reporting catch and landings data rests on flag states.</notes>
+    <num_resources>12</num_resources>
+    <extras>
+      <value>[]</value>
+      <key>access_constraints</key>
+    </extras>
+    <extras>
+      <value>60.9442900000001</value>
+      <key>bbox-east-long</key>
+    </extras>
+    <extras>
+      <value>70.0003757406709</value>
+      <key>bbox-north-lat</key>
+    </extras>
+    <extras>
+      <value>-60.0004135098522</value>
+      <key>bbox-south-lat</key>
+    </extras>
+    <extras>
+      <value>-100</value>
+      <key>bbox-west-long</key>
+    </extras>
+    <extras>
+      <value>ird@ird.fr</value>
+      <key>contact-email</key>
+    </extras>
+    <extras>
+      <value>[]</value>
+      <key>coupled-resource</key>
+    </extras>
+    <extras>
+      <value>[{"type": "revision", "value": "2017-12-14"}]</value>
+      <key>dataset-reference-date</key>
+    </extras>
+    <extras>
+      <value>annually</value>
+      <key>frequency-of-update</key>
+    </extras>
+    <extras>
+      <value>http://tunaatlas.d4science.org/geonetwork/srv/en/catalog.search#/metadata/atlantic_ocean_nominal_catch_tunaatlasICCAT_level0__bySamplingArea</value>
+      <key>gis_geonetwork:GN_Metadata_Show</key>
+    </extras>
+    <extras>
+      <value>http://tunaatlas.d4science.org/geonetwork/srv/en/xml.metadata.get?uuid=atlantic_ocean_nominal_catch_tunaatlasICCAT_level0__bySamplingArea</value>
+      <key>gis_geonetwork:GN_Metadata_Source</key>
+    </extras>
+    <extras>
+      <value>http://tunaatlas.d4science.org/geonetwork</value>
+      <key>gis_geonetwork:GN_URL</key>
+    </extras>
+    <extras>
+      <value>Thumbnail from WMS / Geoserver</value>
+      <key>graphic-preview-description</key>
+    </extras>
+    <extras>
+      <value>https://geoserver-tunaatlas.d4science.org/geoserver/wms?service=WMS&amp;version=1.3.0&amp;request=GetMap&amp;layers=tunaatlas:bathymetry,tunaatlas_iccat:atlantic_ocean_nominal_catch_tunaatlasICCAT_level0__bySamplingArea_aggregated,tunaatlas:continent&amp;styles=&amp;bbox=-60.0004135098522,-100,70.0003757406709,60.9442900000001&amp;width=768&amp;height=768&amp;srs=EPSG:4326&amp;format=image/png</value>
+      <key>graphic-preview-file</key>
+    </extras>
+    <extras>
+      <value>WWW:LINK-1.0-http--link</value>
+      <key>graphic-preview-type</key>
+    </extras>
+    <extras>
+      <value>atlantic_ocean_nominal_catch_tunaatlasICCAT_level0__bySamplingArea</value>
+      <key>guid</key>
+    </extras>
+    <extras>
+      <value>[]</value>
+      <key>licence</key>
+    </extras>
+    <extras>
+      <value>2017-12-15T00:14:12</value>
+      <key>metadata-date</key>
+    </extras>
+    <extras>
+      <value>eng</value>
+      <key>metadata-language</key>
+    </extras>
+    <extras>
+      <value>IRD -, ird@ird.fr</value>
+      <key>point_of_contact 1</key>
+    </extras>
+    <extras>
+      <value>Palma Carlos, carlos.palma@iccat.int</value>
+      <key>point_of_contact 2</key>
+    </extras>
+    <extras>
+      <value>tentative</value>
+      <key>progress</key>
+    </extras>
+    <extras>
+      <value>dataset</value>
+      <key>resource-type</key>
+    </extras>
+    <extras>
+      <value>[{"name": "Institut de recherche pour le d\u00e9veloppement (IRD)", "roles": ["publisher"]}, {"name": "International Commission for the Conservation of Atlantic Tunas (ICCAT)", "roles": ["originator"]}]</value>
+      <key>responsible-party</key>
+    </extras>
+    <extras>
+      <value>{"type": "Polygon", "coordinates": [[[-100.0, -60.0004135099], [60.94429, -60.0004135099], [60.94429, 70.0003757407], [-100.0, 70.0003757407], [-100.0, -60.0004135099]]]}</value>
+      <key>spatial</key>
+    </extras>
+    <extras>
+      <value>OGC Web-Service</value>
+      <key>spatial-data-service-type</key>
+    </extras>
+    <extras>
+      <value>4326</value>
+      <key>spatial-reference-system</key>
+    </extras>
+    <extras>
+      <value>true</value>
+      <key>spatial_harvester</key>
+    </extras>
+    <extras>
+      <value>Dataset</value>
+      <key>system:type</key>
+    </extras>
+    <extras>
+      <value>1950-01-01T00:00:00</value>
+      <key>temporal-extent-begin</key>
+    </extras>
+    <extras>
+      <value>2016-01-01T00:00:00</value>
+      <key>temporal-extent-end</key>
+    </extras>
+    <extras>
+      <value/>
+      <key>topic_category</key>
+    </extras>
+    <owner_org>dc4b4349-f497-4c72-a2cb-8643fbcf6dc1</owner_org>
+    <type>dataset</type>
+    <title>Annual catch of tuna, tuna-like and shark species in the Atlantic Ocean (1950-2015) aggregated by sampling area (ICCAT level 0)</title>
+    <maintainer>bb</maintainer>
+    <num_tags>305</num_tags>
+    <author_email>null</author_email>
+    <id>16659a0d-3656-4bcf-b815-4e9dbf9ab468</id>
+    <state>active</state>
+    <responsible_party>
+      <roles>publisher</roles>
+      <name>Institut de recherche pour le développement (IRD)</name>
+    </responsible_party>
+    <responsible_party>
+      <roles>originator</roles>
+      <name>International Commission for the Conservation of Atlantic Tunas (ICCAT)</name>
+    </responsible_party>
+    <revision_id>285d7a30-db25-40a8-8e43-31cc803bf02f</revision_id>
+    <creator_user_id>ebc02b4a-f774-4e7e-afe1-d52ab93126de</creator_user_id>
+    <dataset-reference-date>
+      <type>revision</type>
+      <value>2017-12-14</value>
+    </dataset-reference-date>
+    <metadata_modified>2017-12-22T23:27:18.676813</metadata_modified>
+    <author>International Commission for the Conservation of Atlantic Tunas (ICCAT),Observatory of Exploited Tropical Pelagic Ecosystems, MARBEC Research Unit 248, IRD,IRD, UMR MARBEC &amp; COI,FAO - Fisheries and Aquaculture Department (FI). Fisheries and Aquaculture Policy and Resources Division (FIA)</author>
+    <metadata_created>2017-11-24T13:58:50.373830</metadata_created>
+    <resources>
+      <url_type>null</url_type>
+      <created>2017-12-18T12:03:16.755865</created>
+      <format/>
+      <resource_type>null</resource_type>
+      <description>Download data (ZIP archive containing CSV file + metadata) from the i-Marine workspace</description>
+      <package_id>16659a0d-3656-4bcf-b815-4e9dbf9ab468</package_id>
+      <cache_last_updated>null</cache_last_updated>
+      <resource_locator_protocol>WWW:LINK-1.0-http--link</resource_locator_protocol>
+      <url>http://data.d4science.org/by9MdmRNcENLUC9vcVpYRDEyTUkwVzJTM0dQZlhrMWRHbWJQNStIS0N6Yz0</url>
+      <resource_locator_function/>
+      <size>null</size>
+      <cache_url>null</cache_url>
+      <datastore_active>false</datastore_active>
+      <name>atlantic_ocean_nominal_catch_1950_01_01_2015_01_01_tunaatlasICCAT_2017_level0__bySamplingArea.zip</name>
+      <mimetype>null</mimetype>
+      <id>10dbc6fd-bbd1-4179-9456-de9fd96dad43</id>
+      <state>active</state>
+      <position>0</position>
+      <last_modified>null</last_modified>
+      <hash/>
+      <mimetype_inner>null</mimetype_inner>
+      <revision_id>605ca137-b6e6-4f69-995d-2cd599fc0fa6</revision_id>
+    </resources>
+    <resources>
+      <url_type>null</url_type>
+      <created>2017-12-18T12:03:16.755877</created>
+      <format>WFS</format>
+      <resource_type>null</resource_type>
+      <description>Download data (CSV) from WFS (Web Feature Service) - see service/operation metadata for guidance to use query parameters</description>
+      <package_id>16659a0d-3656-4bcf-b815-4e9dbf9ab468</package_id>
+      <cache_last_updated>null</cache_last_updated>
+      <resource_locator_protocol>WWW:LINK-1.0-http--link</resource_locator_protocol>
+      <url>https://tunaatlas.d4science.org/geoserver/tunaatlas_iccat/ows?service=WFS&amp;version=1.0.0&amp;request=GetFeature&amp;typeName=tunaatlas_iccat:atlantic_ocean_nominal_catch_tunaatlasICCAT_level0__bySamplingArea&amp;outputFormat=CSV</url>
+      <resource_locator_function/>
+      <size>null</size>
+      <cache_url>null</cache_url>
+      <datastore_active>false</datastore_active>
+      <name>data: CSV from WFS</name>
+      <mimetype>null</mimetype>
+      <id>ba5eeabb-374c-478c-a8fb-49fa86755433</id>
+      <state>active</state>
+      <position>1</position>
+      <last_modified>null</last_modified>
+      <hash/>
+      <mimetype_inner>null</mimetype_inner>
+      <revision_id>605ca137-b6e6-4f69-995d-2cd599fc0fa6</revision_id>
+    </resources>
+    <resources>
+      <url_type>null</url_type>
+      <created>2017-12-18T12:03:16.755881</created>
+      <format>WFS</format>
+      <resource_type>null</resource_type>
+      <description>Download aggregated data (CSV) from WFS (Web Feature Service) - see service/operation metadata for guidance to use query parameters</description>
+      <package_id>16659a0d-3656-4bcf-b815-4e9dbf9ab468</package_id>
+      <cache_last_updated>null</cache_last_updated>
+      <resource_locator_protocol>WWW:LINK-1.0-http--link</resource_locator_protocol>
+      <url>https://tunaatlas.d4science.org/geoserver/tunaatlas_iccat/ows?service=WFS&amp;version=1.0.0&amp;request=GetFeature&amp;typeName=tunaatlas_iccat:atlantic_ocean_nominal_catch_tunaatlasICCAT_level0__bySamplingArea_aggregated&amp;outputFormat=CSV</url>
+      <resource_locator_function/>
+      <size>null</size>
+      <cache_url>null</cache_url>
+      <datastore_active>false</datastore_active>
+      <name>data (aggregated): CSV from WFS</name>
+      <mimetype>null</mimetype>
+      <id>c2a8b9c3-d8de-41dd-8c8d-45780c323f4f</id>
+      <state>active</state>
+      <position>2</position>
+      <last_modified>null</last_modified>
+      <hash/>
+      <mimetype_inner>null</mimetype_inner>
+      <revision_id>605ca137-b6e6-4f69-995d-2cd599fc0fa6</revision_id>
+    </resources>
+    <resources>
+      <url_type>null</url_type>
+      <created>2017-12-18T12:03:16.755885</created>
+      <format>WMS</format>
+      <resource_type>null</resource_type>
+      <description>Visualize maps from WMS (Web Map Service) - see service/operation metadata for guidance to use query parameters</description>
+      <package_id>16659a0d-3656-4bcf-b815-4e9dbf9ab468</package_id>
+      <cache_last_updated>null</cache_last_updated>
+      <resource_locator_protocol>OGC:WMS-1.3.0-http-get-map</resource_locator_protocol>
+      <url>https://tunaatlas.d4science.org/geoserver/tunaatlas_iccat/wms?</url>
+      <resource_locator_function/>
+      <size>null</size>
+      <cache_url>null</cache_url>
+      <datastore_active>false</datastore_active>
+      <name>tunaatlas_iccat:atlantic_ocean_nominal_catch_tunaatlasICCAT_level0__bySamplingArea</name>
+      <mimetype>null</mimetype>
+      <id>3f1e31cc-9edf-4c6a-bf68-162c7b29a958</id>
+      <state>active</state>
+      <position>3</position>
+      <last_modified>null</last_modified>
+      <hash/>
+      <mimetype_inner>null</mimetype_inner>
+      <revision_id>605ca137-b6e6-4f69-995d-2cd599fc0fa6</revision_id>
+    </resources>
+    <resources>
+      <url_type>null</url_type>
+      <created>2017-12-18T12:03:16.755888</created>
+      <format>WMS</format>
+      <resource_type>null</resource_type>
+      <description>Visualize aggregated maps from WMS (Web Map Service) - see service/operation metadata for guidance to use query parameters</description>
+      <package_id>16659a0d-3656-4bcf-b815-4e9dbf9ab468</package_id>
+      <cache_last_updated>null</cache_last_updated>
+      <resource_locator_protocol>OGC:WMS-1.3.0-http-get-map</resource_locator_protocol>
+      <url>https://tunaatlas.d4science.org/geoserver/tunaatlas_iccat/wms?</url>
+      <resource_locator_function/>
+      <size>null</size>
+      <cache_url>null</cache_url>
+      <datastore_active>false</datastore_active>
+      <name>tunaatlas_iccat:atlantic_ocean_nominal_catch_tunaatlasICCAT_level0__bySamplingArea_aggregated</name>
+      <mimetype>null</mimetype>
+      <id>e5f7f9d9-5c04-4e74-aa0b-6381ab82c417</id>
+      <state>active</state>
+      <position>4</position>
+      <last_modified>null</last_modified>
+      <hash/>
+      <mimetype_inner>null</mimetype_inner>
+      <revision_id>605ca137-b6e6-4f69-995d-2cd599fc0fa6</revision_id>
+    </resources>
+    <resources>
+      <url_type>null</url_type>
+      <created>2017-12-18T12:03:16.755891</created>
+      <format/>
+      <resource_type>null</resource_type>
+      <description>The code (R or SQL) which has been used to generate this dataset can be downloaded (from Tuna Atlas VRE of BlueBridge project) and compiled online using related RStudio server</description>
+      <package_id>16659a0d-3656-4bcf-b815-4e9dbf9ab468</package_id>
+      <cache_last_updated>null</cache_last_updated>
+      <resource_locator_protocol>WWW:LINK-1.0-http--link</resource_locator_protocol>
+      <url>https://goo.gl/CdfG42</url>
+      <resource_locator_function/>
+      <size>null</size>
+      <cache_url>null</cache_url>
+      <datastore_active>false</datastore_active>
+      <name>The code (R or SQL) used to generate this dataset</name>
+      <mimetype>null</mimetype>
+      <id>93fb8b9d-8d35-45ad-b247-ed86948a5e05</id>
+      <state>active</state>
+      <position>5</position>
+      <last_modified>null</last_modified>
+      <hash/>
+      <mimetype_inner>null</mimetype_inner>
+      <revision_id>605ca137-b6e6-4f69-995d-2cd599fc0fa6</revision_id>
+    </resources>
+    <resources>
+      <url_type>null</url_type>
+      <created>2017-12-18T12:03:16.755895</created>
+      <format>PDF</format>
+      <resource_type>null</resource_type>
+      <description>This document describes the data dictionnary (vocabulary used for the tables and columns of the database and related values.</description>
+      <package_id>16659a0d-3656-4bcf-b815-4e9dbf9ab468</package_id>
+      <cache_last_updated>null</cache_last_updated>
+      <resource_locator_protocol>WWW:LINK-1.0-http--link</resource_locator_protocol>
+      <url>http://mdst-macroes.ird.fr/documentation/databases/Sardara/docSardara/doc_database/Inventaire_BDD_SARDARA.pdf</url>
+      <resource_locator_function/>
+      <size>null</size>
+      <cache_url>null</cache_url>
+      <datastore_active>false</datastore_active>
+      <name>Documentation: metadata and data dictionnary of Tuna Atlas datawarehouse (Sardara)</name>
+      <mimetype>null</mimetype>
+      <id>d707ce9e-4c81-42df-9eb9-c8d82fca3ae1</id>
+      <state>active</state>
+      <position>6</position>
+      <last_modified>null</last_modified>
+      <hash/>
+      <mimetype_inner>null</mimetype_inner>
+      <revision_id>605ca137-b6e6-4f69-995d-2cd599fc0fa6</revision_id>
+    </resources>
+    <resources>
+      <url_type>null</url_type>
+      <created>2017-12-18T12:03:16.755898</created>
+      <format/>
+      <resource_type>null</resource_type>
+      <description>Get more information on the Tuna Atlas project. The Tuna Atlas Website is made available by BlueBridge H2020 project as a Virtual Research environment.</description>
+      <package_id>16659a0d-3656-4bcf-b815-4e9dbf9ab468</package_id>
+      <cache_last_updated>null</cache_last_updated>
+      <resource_locator_protocol>WWW:LINK-1.0-http--link</resource_locator_protocol>
+      <url>https://i-marine.d4science.org/web/fao_tunaatlas</url>
+      <resource_locator_function/>
+      <size>null</size>
+      <cache_url>null</cache_url>
+      <datastore_active>false</datastore_active>
+      <name>Tuna Atlas Website</name>
+      <mimetype>null</mimetype>
+      <id>dd0c5d50-d9ca-4159-8e3e-381c37e35fc2</id>
+      <state>active</state>
+      <position>7</position>
+      <last_modified>null</last_modified>
+      <hash/>
+      <mimetype_inner>null</mimetype_inner>
+      <revision_id>605ca137-b6e6-4f69-995d-2cd599fc0fa6</revision_id>
+    </resources>
+    <resources>
+      <url_type>null</url_type>
+      <created>2017-12-18T12:03:16.755901</created>
+      <format/>
+      <resource_type>null</resource_type>
+      <description>Tuna Atlas viewer (prototype - under development)</description>
+      <package_id>16659a0d-3656-4bcf-b815-4e9dbf9ab468</package_id>
+      <cache_last_updated>null</cache_last_updated>
+      <resource_locator_protocol>WWW:LINK-1.0-http--link</resource_locator_protocol>
+      <url>https://tunaatlas.d4science.org/tunaatlas</url>
+      <resource_locator_function/>
+      <size>null</size>
+      <cache_url>null</cache_url>
+      <datastore_active>false</datastore_active>
+      <name>Tuna Atlas viewer (prototype - under development)</name>
+      <mimetype>null</mimetype>
+      <id>e0ae6358-9848-4a50-972c-1d0effba1e3f</id>
+      <state>active</state>
+      <position>8</position>
+      <last_modified>null</last_modified>
+      <hash/>
+      <mimetype_inner>null</mimetype_inner>
+      <revision_id>605ca137-b6e6-4f69-995d-2cd599fc0fa6</revision_id>
+    </resources>
+    <resources>
+      <url_type>null</url_type>
+      <created>2017-12-18T12:03:16.755905</created>
+      <format/>
+      <resource_type>null</resource_type>
+      <description>Visualize metadata HTML view in Geonetwork</description>
+      <package_id>16659a0d-3656-4bcf-b815-4e9dbf9ab468</package_id>
+      <cache_last_updated>null</cache_last_updated>
+      <resource_locator_protocol>WWW:LINK-1.0-http--link</resource_locator_protocol>
+      <url>http://tunaatlas.d4science.org/geonetwork/srv/eng/catalog.search#/metadata/atlantic_ocean_nominal_catch_tunaatlasICCAT_level0__bySamplingArea</url>
+      <resource_locator_function/>
+      <size>null</size>
+      <cache_url>null</cache_url>
+      <datastore_active>false</datastore_active>
+      <name>OGC metadata: HTML view in Geonetwork</name>
+      <mimetype>null</mimetype>
+      <id>a441b30e-67ed-4f11-90b2-38ed16d0330f</id>
+      <state>active</state>
+      <position>9</position>
+      <last_modified>null</last_modified>
+      <hash/>
+      <mimetype_inner>null</mimetype_inner>
+      <revision_id>605ca137-b6e6-4f69-995d-2cd599fc0fa6</revision_id>
+    </resources>
+    <resources>
+      <url_type>null</url_type>
+      <created>2017-12-18T12:03:16.755908</created>
+      <format>csw</format>
+      <resource_type>null</resource_type>
+      <description>Visualize metadata XML from CSW (Catalogue Service for the Web)</description>
+      <package_id>16659a0d-3656-4bcf-b815-4e9dbf9ab468</package_id>
+      <cache_last_updated>null</cache_last_updated>
+      <resource_locator_protocol>WWW:LINK-1.0-http--link</resource_locator_protocol>
+      <url>http://tunaatlas.d4science.org/geonetwork/srv/eng/csw?service=CSW&amp;request=GetRecordById&amp;Version=2.0.2&amp;elementSetName=full&amp;outputSchema=http%3A//www.isotc211.org/2005/gmd&amp;id=atlantic_ocean_nominal_catch_tunaatlasICCAT_level0__bySamplingArea</url>
+      <resource_locator_function/>
+      <size>null</size>
+      <cache_url>null</cache_url>
+      <datastore_active>false</datastore_active>
+      <name>OGC metadata: XML from CSW</name>
+      <mimetype>null</mimetype>
+      <id>3548bbd9-ee09-4aa6-ae2c-3463a38545fd</id>
+      <state>active</state>
+      <position>10</position>
+      <last_modified>null</last_modified>
+      <hash/>
+      <mimetype_inner>null</mimetype_inner>
+      <revision_id>605ca137-b6e6-4f69-995d-2cd599fc0fa6</revision_id>
+    </resources>
+    <resources>
+      <created>2017-12-18T12:03:16.755911</created>
+      <url_type>null</url_type>
+      <format/>
+      <resource_type>null</resource_type>
+      <description>Data Structure Definition (ISO 19110)</description>
+      <package_id>16659a0d-3656-4bcf-b815-4e9dbf9ab468</package_id>
+      <cache_last_updated>null</cache_last_updated>
+      <url>http://tunaatlas.d4science.org/geonetwork/srv/eng/catalog.search#/metadata/atlantic_ocean_nominal_catch_tunaatlasICCAT_level0__bySamplingArea_data_structure_definition</url>
+      <cache_url>null</cache_url>
+      <size>null</size>
+      <datastore_active>false</datastore_active>
+      <name>atlantic_ocean_nominal_catch_tunaatlasICCAT_level0__bySamplingArea_data_structure_definition</name>
+      <mimetype>null</mimetype>
+      <state>active</state>
+      <position>11</position>
+      <id>aad8bb6d-70fc-4089-a8a8-32b1e47fa77e</id>
+      <last_modified>null</last_modified>
+      <hash/>
+      <mimetype_inner>null</mimetype_inner>
+      <revision_id>605ca137-b6e6-4f69-995d-2cd599fc0fa6</revision_id>
+    </resources>
+    <version>null</version>
+    <url>null</url>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Acanthocybium solandri</name>
+      <state>active</state>
+      <id>7ae72bb6-efe4-42fb-b321-017634732bcb</id>
+      <display_name>Acanthocybium solandri</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Aerial traps</name>
+      <state>active</state>
+      <id>ae531672-5895-4a19-82fc-6ad5e6ee4b2e</id>
+      <display_name>Aerial traps</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Albania</name>
+      <state>active</state>
+      <id>95e3cb51-6522-474b-8717-44da7bf443bc</id>
+      <display_name>Albania</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Algeria</name>
+      <state>active</state>
+      <id>81fe0b97-9779-4281-a959-b515269bdfd0</id>
+      <display_name>Algeria</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Allothunnus fallai</name>
+      <state>active</state>
+      <id>0321c063-f8e9-4d5e-8307-627a9fc386bf</id>
+      <display_name>Allothunnus fallai</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Alopias pelagicus</name>
+      <state>active</state>
+      <id>185a3031-3a19-4fe4-ba35-d097b2e6a0f1</id>
+      <display_name>Alopias pelagicus</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Alopias spp</name>
+      <state>active</state>
+      <id>1261af3a-54a3-4c97-bb76-80bfeb54c4ea</id>
+      <display_name>Alopias spp</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Alopias superciliosus</name>
+      <state>active</state>
+      <id>9b9e1dde-3041-4bda-9118-9d556080dd2f</id>
+      <display_name>Alopias superciliosus</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Alopias vulpinus</name>
+      <state>active</state>
+      <id>32174ab4-0995-4209-a74b-20fb9bb55cde</id>
+      <display_name>Alopias vulpinus</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Aluterus monoceros</name>
+      <state>active</state>
+      <id>f6f66fcd-a97e-4cae-8271-9590bbeda601</id>
+      <display_name>Aluterus monoceros</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Angola</name>
+      <state>active</state>
+      <id>d56e2e3d-837b-4332-abf9-8f8da96bc727</id>
+      <display_name>Angola</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Antigua Barb</name>
+      <state>active</state>
+      <id>9a67850f-de31-401d-96e4-db092f90cdc9</id>
+      <display_name>Antigua Barb</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Aphanopus carbo</name>
+      <state>active</state>
+      <id>2cf78c28-04f5-4a9c-8c4b-8a0ef49c7989</id>
+      <display_name>Aphanopus carbo</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Apristurus spp</name>
+      <state>active</state>
+      <id>b9c87366-0b0f-48fb-8d91-a473479be47f</id>
+      <display_name>Apristurus spp</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Argentina</name>
+      <state>active</state>
+      <id>f42ef493-f40b-4099-b903-4bb42318ed91</id>
+      <display_name>Argentina</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Aruba</name>
+      <state>active</state>
+      <id>935edd16-5377-4f16-8bda-f811ec208ce4</id>
+      <display_name>Aruba</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Auxis rochei</name>
+      <state>active</state>
+      <id>c6686b3f-6bd4-48e7-8348-2d8514b1136a</id>
+      <display_name>Auxis rochei</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Auxis thazard</name>
+      <state>active</state>
+      <id>58133d2d-342c-4ac9-abe5-79a7ef225035</id>
+      <display_name>Auxis thazard</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Auxis thazard A. rochei</name>
+      <state>active</state>
+      <id>c24ff1c5-0214-4319-a4ea-e10d37001a62</id>
+      <display_name>Auxis thazard A. rochei</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Balistes carolinensis</name>
+      <state>active</state>
+      <id>8bc0fe56-67c4-4cbe-a017-79e44634b553</id>
+      <display_name>Balistes carolinensis</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Balistidae</name>
+      <state>active</state>
+      <id>e5ce3a67-7d8d-4b74-9d86-8d114b5a85f9</id>
+      <display_name>Balistidae</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Barbados</name>
+      <state>active</state>
+      <id>f9063e2f-1ecc-4f5e-af33-7e3f2bc34457</id>
+      <display_name>Barbados</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Beach seines</name>
+      <state>active</state>
+      <id>413a675e-d57c-4dde-9136-bca3966debc6</id>
+      <display_name>Beach seines</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Belize</name>
+      <state>active</state>
+      <id>e0ad879c-e7bf-46f0-b994-b7301cb57a6c</id>
+      <display_name>Belize</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Belone belone</name>
+      <state>active</state>
+      <id>35cdf6d1-f14b-4d12-a432-4cd59ac2a638</id>
+      <display_name>Belone belone</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Benin</name>
+      <state>active</state>
+      <id>1218c656-741f-4f53-8bb9-e5ea3edd32a8</id>
+      <display_name>Benin</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Bermuda</name>
+      <state>active</state>
+      <id>6f0e5d51-c025-404a-9081-5dace554378f</id>
+      <display_name>Bermuda</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Br Virgin Is</name>
+      <state>active</state>
+      <id>15090109-b235-49a6-829e-79cbe8ac9b16</id>
+      <display_name>Br Virgin Is</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Brama brama</name>
+      <state>active</state>
+      <id>67652a4e-ce6a-4986-8cd8-804a865d7bec</id>
+      <display_name>Brama brama</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Brazil</name>
+      <state>active</state>
+      <id>985edc10-6c9e-41f3-8f28-5f6da1988600</id>
+      <display_name>Brazil</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Bulgaria</name>
+      <state>active</state>
+      <id>1c38f7c9-0eba-4a66-8cef-d7590d3cca63</id>
+      <display_name>Bulgaria</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Cabo Verde</name>
+      <state>active</state>
+      <id>affb2fe7-4062-4f51-9c42-d9bf6f812b5b</id>
+      <display_name>Cabo Verde</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Cambodia</name>
+      <state>active</state>
+      <id>7c8e73b7-5482-4bd4-8f00-90de3c87dc9e</id>
+      <display_name>Cambodia</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Cameroon</name>
+      <state>active</state>
+      <id>8d27cdc7-faff-4962-b591-16672a6d915d</id>
+      <display_name>Cameroon</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Canada</name>
+      <state>active</state>
+      <id>ae8409a9-6e83-4204-bd62-a3d1415966f5</id>
+      <display_name>Canada</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Canthidermis maculata</name>
+      <state>active</state>
+      <id>4b31a408-6a17-483d-86ec-3d6de4046daa</id>
+      <display_name>Canthidermis maculata</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Caranx crysos</name>
+      <state>active</state>
+      <id>80864938-30e4-4dc5-ac92-3d9918863f92</id>
+      <display_name>Caranx crysos</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Caranx hippos</name>
+      <state>active</state>
+      <id>7251f4fa-2a18-4cda-9eb5-a183b7c89560</id>
+      <display_name>Caranx hippos</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Carcharhinidae</name>
+      <state>active</state>
+      <id>66759ddf-6a6a-4346-b8c2-5d5b2706a367</id>
+      <display_name>Carcharhinidae</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Carcharhiniformes</name>
+      <state>active</state>
+      <id>66772308-dcd6-4385-b94e-f5f5c4589478</id>
+      <display_name>Carcharhiniformes</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Carcharhinus acronotus</name>
+      <state>active</state>
+      <id>67dbbd0e-1ca5-43c3-ba00-b9403200c738</id>
+      <display_name>Carcharhinus acronotus</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Carcharhinus albimarginatus</name>
+      <state>active</state>
+      <id>c06fa0df-b58a-4e1b-bd46-966205495144</id>
+      <display_name>Carcharhinus albimarginatus</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Carcharhinus altimus</name>
+      <state>active</state>
+      <id>89b18d9d-2efa-4a04-a033-ca8c05322f40</id>
+      <display_name>Carcharhinus altimus</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Carcharhinus brachyurus</name>
+      <state>active</state>
+      <id>f2f67ce0-1d90-4378-b4dd-0b9073be0900</id>
+      <display_name>Carcharhinus brachyurus</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Carcharhinus brevipinna</name>
+      <state>active</state>
+      <id>15ff1586-b805-43f0-8cae-55dc83765991</id>
+      <display_name>Carcharhinus brevipinna</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Carcharhinus falciformis</name>
+      <state>active</state>
+      <id>8a071db9-516d-49e8-b628-c2ea0aefce39</id>
+      <display_name>Carcharhinus falciformis</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Carcharhinus galapagensis</name>
+      <state>active</state>
+      <id>bf2affa7-678d-40b6-bbca-95ee14541c12</id>
+      <display_name>Carcharhinus galapagensis</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Carcharhinus isodon</name>
+      <state>active</state>
+      <id>9c1f73dd-305e-4910-b086-af8531bc7278</id>
+      <display_name>Carcharhinus isodon</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Carcharhinus leucas</name>
+      <state>active</state>
+      <id>3f9027e2-0d04-42a0-94ce-2fc4673bc1e2</id>
+      <display_name>Carcharhinus leucas</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Carcharhinus limbatus</name>
+      <state>active</state>
+      <id>02bb3b92-4e34-4640-9743-972a86a11d15</id>
+      <display_name>Carcharhinus limbatus</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Carcharhinus longimanus</name>
+      <state>active</state>
+      <id>751b5c0e-fee7-486a-88b8-efc5ca988e2b</id>
+      <display_name>Carcharhinus longimanus</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Carcharhinus melanopterus</name>
+      <state>active</state>
+      <id>8e0013e1-a046-4089-b031-4db6051ea401</id>
+      <display_name>Carcharhinus melanopterus</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Carcharhinus obscurus</name>
+      <state>active</state>
+      <id>8307a661-4e8c-4c1e-b549-936c3e19f273</id>
+      <display_name>Carcharhinus obscurus</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Carcharhinus plumbeus</name>
+      <state>active</state>
+      <id>52004c8a-b304-4ab9-9d5e-71679391ca19</id>
+      <display_name>Carcharhinus plumbeus</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Carcharhinus porosus</name>
+      <state>active</state>
+      <id>0111b91c-f8b0-4a6f-855d-066fd6223986</id>
+      <display_name>Carcharhinus porosus</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Carcharhinus signatus</name>
+      <state>active</state>
+      <id>8245bc54-2f9f-4b0c-adb6-be2baf599d2f</id>
+      <display_name>Carcharhinus signatus</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Carcharias taurus</name>
+      <state>active</state>
+      <id>f643369f-7aef-436e-a64e-6c46379768eb</id>
+      <display_name>Carcharias taurus</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Carcharodon carcharias</name>
+      <state>active</state>
+      <id>2af435de-9c22-42ec-b125-18f64c13334a</id>
+      <display_name>Carcharodon carcharias</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Cayman Is</name>
+      <state>active</state>
+      <id>57ddb457-964e-46b8-96b7-0a774229c3eb</id>
+      <display_name>Cayman Is</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Centrophorus granulosus</name>
+      <state>active</state>
+      <id>70338f5b-7f42-453b-af14-283cacb270bb</id>
+      <display_name>Centrophorus granulosus</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Centrophorus lusitanicus</name>
+      <state>active</state>
+      <id>14d388ea-5645-4135-b00d-11e76834e684</id>
+      <display_name>Centrophorus lusitanicus</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Centrophorus squamosus</name>
+      <state>active</state>
+      <id>b77fd897-0550-4a36-8611-0ec079741295</id>
+      <display_name>Centrophorus squamosus</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Centroscyllium fabricii</name>
+      <state>active</state>
+      <id>ceaccaad-aef4-41f3-acc7-374c6143f5df</id>
+      <display_name>Centroscyllium fabricii</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Centroscymnus coelolepis</name>
+      <state>active</state>
+      <id>bbc6c15c-656f-4e9d-b8b9-03b621acc380</id>
+      <display_name>Centroscymnus coelolepis</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Centroscymnus crepidater</name>
+      <state>active</state>
+      <id>7905604c-056b-4861-a42b-6214a22b26d9</id>
+      <display_name>Centroscymnus crepidater</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Cetorhinus maximus</name>
+      <state>active</state>
+      <id>c24b2454-5077-49cc-a85d-2be31643d9d5</id>
+      <display_name>Cetorhinus maximus</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Chile</name>
+      <state>active</state>
+      <id>b98f2084-91cd-4fc8-bde3-b61c4050e453</id>
+      <display_name>Chile</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>China</name>
+      <state>active</state>
+      <id>5ce5a7af-9cc9-44e9-951d-b3668be6fb06</id>
+      <display_name>China</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Colombia</name>
+      <state>active</state>
+      <id>89da02a9-b7ea-48ea-a3d8-9cc664f747c0</id>
+      <display_name>Colombia</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Congo Rep</name>
+      <state>active</state>
+      <id>6dceadff-20e0-43b5-ae02-dacb438f940a</id>
+      <display_name>Congo Rep</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Coryphaena equiselis</name>
+      <state>active</state>
+      <id>dcdb96b8-f595-4f6e-b6f9-cc0ebe6ac500</id>
+      <display_name>Coryphaena equiselis</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Coryphaena hippurus</name>
+      <state>active</state>
+      <id>a9e99a79-f981-4dd7-9767-9ce7744000c8</id>
+      <display_name>Coryphaena hippurus</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Costa Rica</name>
+      <state>active</state>
+      <id>2bc668a1-00c0-421f-bb25-6732802f5c1a</id>
+      <display_name>Costa Rica</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Croatia</name>
+      <state>active</state>
+      <id>c731f209-e651-448c-94fa-17b249f96af0</id>
+      <display_name>Croatia</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Cte dIvoire</name>
+      <state>active</state>
+      <id>1cb7bfab-fb02-4f3b-8ab5-7bfff8344f6d</id>
+      <display_name>Cte dIvoire</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Cuba</name>
+      <state>active</state>
+      <id>eda45bb3-1ac6-4e00-9770-e817efdcd8f7</id>
+      <display_name>Cuba</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Curaao</name>
+      <state>active</state>
+      <id>884d7ece-651d-4051-92b5-2a106793221a</id>
+      <display_name>Curaao</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Cyprus</name>
+      <state>active</state>
+      <id>0053611d-3c3c-4dde-8a11-2dad3f2778a6</id>
+      <display_name>Cyprus</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Dalatias licha</name>
+      <state>active</state>
+      <id>7678f72e-61b9-48ba-beba-be072f7e1447</id>
+      <display_name>Dalatias licha</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Dasyatidae</name>
+      <state>active</state>
+      <id>3373ae54-8ced-4525-8402-a19223b340a4</id>
+      <display_name>Dasyatidae</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Dasyatis violacea</name>
+      <state>active</state>
+      <id>93da455b-b83f-437c-a734-cff37bb7cee0</id>
+      <display_name>Dasyatis violacea</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Deania calcea</name>
+      <state>active</state>
+      <id>84e2cc83-fb2c-494c-88cf-7663f44d7d3c</id>
+      <display_name>Deania calcea</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Denmark</name>
+      <state>active</state>
+      <id>66d1ffcd-b3f3-43a0-99cc-c210c2da9179</id>
+      <display_name>Denmark</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Diodon hystrix</name>
+      <state>active</state>
+      <id>38ff9016-364f-446c-a5cf-a1e40e9b6d9b</id>
+      <display_name>Diodon hystrix</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Dominica</name>
+      <state>active</state>
+      <id>8e8ab98f-5898-4bd3-a204-ff67ff719089</id>
+      <display_name>Dominica</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Dominican Rp</name>
+      <state>active</state>
+      <id>43c1b270-7075-4cdd-8aef-fe68073195b7</id>
+      <display_name>Dominican Rp</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Drift gillnets</name>
+      <state>active</state>
+      <id>95978002-a0df-4555-b42e-ca543f7b1230</id>
+      <display_name>Drift gillnets</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Drifting longlines</name>
+      <state>active</state>
+      <id>7113a38a-52be-43f3-8ba6-14d7adf7ac8a</id>
+      <display_name>Drifting longlines</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Echinorhinus brucus</name>
+      <state>active</state>
+      <id>8b9066d0-3bfb-4d8a-a035-ea229712245e</id>
+      <display_name>Echinorhinus brucus</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Egypt</name>
+      <state>active</state>
+      <id>3b386a06-172d-46dd-968a-06fd7a129ec7</id>
+      <display_name>Egypt</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>El Salvador</name>
+      <state>active</state>
+      <id>7622546c-cbc4-40fe-a2aa-757157632637</id>
+      <display_name>El Salvador</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Elagatis bipinnulata</name>
+      <state>active</state>
+      <id>cac9c9fe-8604-4b42-a3c7-ed543b808db3</id>
+      <display_name>Elagatis bipinnulata</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Eq Guinea</name>
+      <state>active</state>
+      <id>2597c222-3346-45be-9a62-3b288b4f3931</id>
+      <display_name>Eq Guinea</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Estonia</name>
+      <state>active</state>
+      <id>cf681dfd-f0a2-41a0-8a23-2a5e2e4696fe</id>
+      <display_name>Estonia</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Etmopterus princeps</name>
+      <state>active</state>
+      <id>7066051a-f4b7-48e8-8c12-aa1e9164f276</id>
+      <display_name>Etmopterus princeps</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Etmopterus spinax</name>
+      <state>active</state>
+      <id>dd24e33f-d839-4f71-9313-b3f911cb829c</id>
+      <display_name>Etmopterus spinax</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Etmopterus spp</name>
+      <state>active</state>
+      <id>bd9345f9-e22b-49ac-9d0f-1fc3aae932be</id>
+      <display_name>Etmopterus spp</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Euthynnus affinis</name>
+      <state>active</state>
+      <id>26feb3e7-1162-4a2f-82f6-274433cc80f5</id>
+      <display_name>Euthynnus affinis</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Euthynnus alletteratus</name>
+      <state>active</state>
+      <id>a50495df-373c-4450-b6b7-d45b35e3ebd2</id>
+      <display_name>Euthynnus alletteratus</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Exocoetidae</name>
+      <state>active</state>
+      <id>cbd2d588-c0b3-4898-9bc2-1d64cff82fb5</id>
+      <display_name>Exocoetidae</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Falkland Is</name>
+      <state>active</state>
+      <id>1e24a864-3ceb-463e-b2e2-b1c39a549b43</id>
+      <display_name>Falkland Is</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Faroe Is</name>
+      <state>active</state>
+      <id>d21421ef-133b-499e-8fa2-6f9deed7cd80</id>
+      <display_name>Faroe Is</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Feature Catalog Resource</name>
+      <state>active</state>
+      <id>386d6801-1468-444e-96ea-101c149740d6</id>
+      <display_name>Feature Catalog Resource</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Fisheries</name>
+      <state>active</state>
+      <id>ea225d3f-8a9f-4f77-bcc2-25226baaf621</id>
+      <display_name>Fisheries</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>France</name>
+      <state>active</state>
+      <id>7149a5da-3b1e-4b53-9c5a-cdf0ac8e9538</id>
+      <display_name>France</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Gabon</name>
+      <state>active</state>
+      <id>d32d1713-cd93-4ce6-829d-676a01a64744</id>
+      <display_name>Gabon</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Galeocerdo cuvier</name>
+      <state>active</state>
+      <id>813c3bd9-6eb3-44eb-ad66-c6a39527c53a</id>
+      <display_name>Galeocerdo cuvier</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Galeorhinus galeus</name>
+      <state>active</state>
+      <id>5d6e5990-5f17-4329-9fb3-7920e623ce17</id>
+      <display_name>Galeorhinus galeus</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Galeus melastomus</name>
+      <state>active</state>
+      <id>d322eba9-f043-4313-b1f4-6d86a382b161</id>
+      <display_name>Galeus melastomus</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Galeus spp</name>
+      <state>active</state>
+      <id>42915922-70ce-4c04-b6e6-823a1f4e2b9f</id>
+      <display_name>Galeus spp</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Gambia</name>
+      <state>active</state>
+      <id>146713f0-4661-4cb4-b493-e0fcaa2cb6cd</id>
+      <display_name>Gambia</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Gasterochisma melampus</name>
+      <state>active</state>
+      <id>190d1b16-1e40-4e3f-a9c3-42e97c6f6e45</id>
+      <display_name>Gasterochisma melampus</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Gear nei</name>
+      <state>active</state>
+      <id>6868c9fe-d39c-4c8a-9296-63a56bce991e</id>
+      <display_name>Gear nei</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Gear not known</name>
+      <state>active</state>
+      <id>8c939050-59e2-478f-a3dd-610377d4b056</id>
+      <display_name>Gear not known</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Gempylus serpens</name>
+      <state>active</state>
+      <id>28446bf9-ba47-40f2-ae07-47b30c12dc9a</id>
+      <display_name>Gempylus serpens</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Georgia</name>
+      <state>active</state>
+      <id>7eca4c86-5c2c-40ba-86a8-af401e96d05d</id>
+      <display_name>Georgia</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Germany</name>
+      <state>active</state>
+      <id>1bc834aa-da1e-411e-a87c-f421d0faa129</id>
+      <display_name>Germany</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Ghana</name>
+      <state>active</state>
+      <id>08fe0375-676a-4e91-b06c-73cb0478364e</id>
+      <display_name>Ghana</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Gillnets and entangling nets nei</name>
+      <state>active</state>
+      <id>96df8832-b904-4c0a-9bca-1a081b27bd85</id>
+      <display_name>Gillnets and entangling nets nei</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Ginglymostoma cirratum</name>
+      <state>active</state>
+      <id>c751655f-dbcf-45d0-8055-928424886ae8</id>
+      <display_name>Ginglymostoma cirratum</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Ginglymostoma spp</name>
+      <state>active</state>
+      <id>05e32a10-1ef5-4b9d-8ed9-aaa31ab70bf6</id>
+      <display_name>Ginglymostoma spp</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Greece</name>
+      <state>active</state>
+      <id>d87f8959-ee1b-415a-97fb-3259b6f76f72</id>
+      <display_name>Greece</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Grenada</name>
+      <state>active</state>
+      <id>b3acf7db-2e3e-43f8-ae72-04e8c5d65612</id>
+      <display_name>Grenada</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Guatemala</name>
+      <state>active</state>
+      <id>552f48dd-2016-4228-8e13-d316229c64f5</id>
+      <display_name>Guatemala</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Guinea</name>
+      <state>active</state>
+      <id>43af7017-db15-4b9f-bb9d-3ac986088f38</id>
+      <display_name>Guinea</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>GuineaBissau</name>
+      <state>active</state>
+      <id>91bc5c10-5e28-4834-bc21-b01aa2622cc0</id>
+      <display_name>GuineaBissau</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Guyana</name>
+      <state>active</state>
+      <id>f36a015a-b1a9-4966-8ac9-d8cb3d7bc933</id>
+      <display_name>Guyana</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Handlines and hand-operated pole-and-lines</name>
+      <state>active</state>
+      <id>ee12669b-9053-4380-b2db-2a6793d32925</id>
+      <display_name>Handlines and hand-operated pole-and-lines</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Harpoons</name>
+      <state>active</state>
+      <id>d3fcf605-8b85-4902-952b-f334608d58e4</id>
+      <display_name>Harpoons</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Heptranchias perlo</name>
+      <state>active</state>
+      <id>a07cc3b1-7e3a-451f-bff2-a75188bf3105</id>
+      <display_name>Heptranchias perlo</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Hexanchus griseus</name>
+      <state>active</state>
+      <id>90620f9a-e73b-44b7-bafa-8467ad004a2d</id>
+      <display_name>Hexanchus griseus</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Honduras</name>
+      <state>active</state>
+      <id>92d054e4-16fa-4a32-8261-9b375a2ea425</id>
+      <display_name>Honduras</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Iceland</name>
+      <state>active</state>
+      <id>095f3cfb-50fe-4ad6-a5dc-62a1efdb9b76</id>
+      <display_name>Iceland</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Ireland</name>
+      <state>active</state>
+      <id>dff94206-06c0-4b2d-a189-3573082909d9</id>
+      <display_name>Ireland</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Israel</name>
+      <state>active</state>
+      <id>b1fde96b-5f14-4e6a-b1dc-a9acadbc8d4e</id>
+      <display_name>Israel</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Istiophoridae</name>
+      <state>active</state>
+      <id>41eaf8bd-ab1f-4296-a11f-528635976e74</id>
+      <display_name>Istiophoridae</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Istiophorus albicans</name>
+      <state>active</state>
+      <id>972dd4ec-dc14-4574-8832-d9ec6034243d</id>
+      <display_name>Istiophorus albicans</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Isurus oxyrinchus</name>
+      <state>active</state>
+      <id>5b1e9b1a-eb19-4b04-a0c0-d7cc26d8ef60</id>
+      <display_name>Isurus oxyrinchus</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Isurus paucus</name>
+      <state>active</state>
+      <id>1b36f040-ff5c-4ae5-a03f-8a5d8386d071</id>
+      <display_name>Isurus paucus</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Italy</name>
+      <state>active</state>
+      <id>38d707ab-a5a5-4c5e-95dd-7af9d2a5d332</id>
+      <display_name>Italy</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Jamaica</name>
+      <state>active</state>
+      <id>cd99fde3-8455-4388-85c5-36e1d8bc42b5</id>
+      <display_name>Jamaica</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Japan</name>
+      <state>active</state>
+      <id>429241c9-f684-423a-aff8-9a79804809f2</id>
+      <display_name>Japan</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Katsuwonus pelamis</name>
+      <state>active</state>
+      <id>ebc0eac3-17d0-48a1-aead-993108ac0c49</id>
+      <display_name>Katsuwonus pelamis</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Korea Rep</name>
+      <state>active</state>
+      <id>2151a366-358f-4dfe-98d1-d9a4ea59d220</id>
+      <display_name>Korea Rep</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Lamna nasus</name>
+      <state>active</state>
+      <id>2b6abb47-81c7-43d4-b019-0bf5eca4668d</id>
+      <display_name>Lamna nasus</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Lamnidae</name>
+      <state>active</state>
+      <id>42bf96b6-a29e-41be-bb3f-8c437d056626</id>
+      <display_name>Lamnidae</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Lampris guttatus</name>
+      <state>active</state>
+      <id>835bf6e5-7d47-4331-8e8b-7dac966709b8</id>
+      <display_name>Lampris guttatus</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Latvia</name>
+      <state>active</state>
+      <id>770c5d33-4741-4531-b080-7f76252dc932</id>
+      <display_name>Latvia</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Lebanon</name>
+      <state>active</state>
+      <id>f3c26f74-b996-4f11-a571-e4e1f4ddd3d3</id>
+      <display_name>Lebanon</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Lepidocybium flavobrunneum</name>
+      <state>active</state>
+      <id>381f4729-ced5-4549-830f-fe2fdb829244</id>
+      <display_name>Lepidocybium flavobrunneum</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Lepidopus caudatus</name>
+      <state>active</state>
+      <id>f8488dcd-fb81-4ced-b51e-f5526e952e25</id>
+      <display_name>Lepidopus caudatus</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Liberia</name>
+      <state>active</state>
+      <id>f758f161-ff98-4a85-a6b6-aa21e771d69a</id>
+      <display_name>Liberia</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Libya</name>
+      <state>active</state>
+      <id>61251877-5c3c-435c-8aae-3d830d3c2505</id>
+      <display_name>Libya</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Lichia amia</name>
+      <state>active</state>
+      <id>0ae21302-3eb8-446e-b03e-68cb5fa07dfc</id>
+      <display_name>Lichia amia</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Lithuania</name>
+      <state>active</state>
+      <id>6c5aaf7c-4bbd-4dc5-b82b-df1f28956a7b</id>
+      <display_name>Lithuania</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Longlines nei</name>
+      <state>active</state>
+      <id>ce84dbee-333f-4520-a659-a1f05c546bd6</id>
+      <display_name>Longlines nei</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Makaira indica</name>
+      <state>active</state>
+      <id>fcd69223-7940-4b74-b683-fc3f6a9ecdea</id>
+      <display_name>Makaira indica</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Makaira nigricans</name>
+      <state>active</state>
+      <id>525b65ef-9432-441b-b30a-3540b06b3db7</id>
+      <display_name>Makaira nigricans</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Malta</name>
+      <state>active</state>
+      <id>dcd1cbea-7c2b-4d40-8a62-3b7bf6ad65cf</id>
+      <display_name>Malta</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Manta birostris</name>
+      <state>active</state>
+      <id>554e18df-0b77-44a7-b35f-0d4d55ae78ac</id>
+      <display_name>Manta birostris</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Masturus lanceolatus</name>
+      <state>active</state>
+      <id>f5e56c3e-6d5a-4280-ac7c-490d9d0ae127</id>
+      <display_name>Masturus lanceolatus</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Mauritania</name>
+      <state>active</state>
+      <id>a348316f-95f0-430c-8c52-69c923619547</id>
+      <display_name>Mauritania</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Mechanized lines and pole-and-lines</name>
+      <state>active</state>
+      <id>f33e9223-fbf9-4fd2-a5ce-0559faf3023b</id>
+      <display_name>Mechanized lines and pole-and-lines</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Mexico</name>
+      <state>active</state>
+      <id>a90d5cf8-f18c-498b-ba63-cb48b0c79123</id>
+      <display_name>Mexico</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Midwater pair trawls</name>
+      <state>active</state>
+      <id>2fd0a5c7-31da-4198-ac64-dbce7732af98</id>
+      <display_name>Midwater pair trawls</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Midwater trawls nei</name>
+      <state>active</state>
+      <id>4b1e59dd-9db2-44b4-9755-278e6e1a20a0</id>
+      <display_name>Midwater trawls nei</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Mobula japanica</name>
+      <state>active</state>
+      <id>af5a2018-926c-47a0-a626-35069d54f05e</id>
+      <display_name>Mobula japanica</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Mobula mobular</name>
+      <state>active</state>
+      <id>b7f840e0-876d-4305-bebe-41689b902b91</id>
+      <display_name>Mobula mobular</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Mola mola</name>
+      <state>active</state>
+      <id>68603e36-b745-4031-965e-78f2eb7dde79</id>
+      <display_name>Mola mola</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Morocco</name>
+      <state>active</state>
+      <id>8259093b-4f54-4034-9ad8-037b24cd2759</id>
+      <display_name>Morocco</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Mustelus asterias</name>
+      <state>active</state>
+      <id>7f2df36f-cc8a-4f2f-9fba-d8aacfea6759</id>
+      <display_name>Mustelus asterias</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Mustelus henlei</name>
+      <state>active</state>
+      <id>1d153c69-c5b5-4561-a925-5cdb0e5a517a</id>
+      <display_name>Mustelus henlei</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Mustelus mustelus</name>
+      <state>active</state>
+      <id>3613aae3-d4bc-442c-b238-0003d10b5e1c</id>
+      <display_name>Mustelus mustelus</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Mustelus spp</name>
+      <state>active</state>
+      <id>2aaa6801-f8b9-47dc-be9b-178756edd693</id>
+      <display_name>Mustelus spp</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Namibia</name>
+      <state>active</state>
+      <id>21dbdd3b-4c9e-4eab-971f-d4e67f2e6f46</id>
+      <display_name>Namibia</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Naucrates ductor</name>
+      <state>active</state>
+      <id>221c67ab-60dc-4dcc-ba11-f21145376516</id>
+      <display_name>Naucrates ductor</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Negaprion brevirostris</name>
+      <state>active</state>
+      <id>e3449929-3b1e-4ed1-9b90-cff8cdf7e0ac</id>
+      <display_name>Negaprion brevirostris</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Netherlands</name>
+      <state>active</state>
+      <id>262f4a81-b139-43ce-9a33-a2499e92a3e4</id>
+      <display_name>Netherlands</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Nigeria</name>
+      <state>active</state>
+      <id>f349e0a8-139f-4fba-b20b-4a6d1070f64a</id>
+      <display_name>Nigeria</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Norway</name>
+      <state>active</state>
+      <id>ac07d998-6631-4f7e-a275-b65475f7fc69</id>
+      <display_name>Norway</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Notorynchus cepedianus</name>
+      <state>active</state>
+      <id>3c0a3375-887f-4967-bf8c-c4bc7f87dea3</id>
+      <display_name>Notorynchus cepedianus</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Orcynopsis unicolor</name>
+      <state>active</state>
+      <id>eb774c21-2759-41bc-9716-63a5c3751752</id>
+      <display_name>Orcynopsis unicolor</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Other nei</name>
+      <state>active</state>
+      <id>2ac8d131-83ab-49f5-b68e-c3920b9f2401</id>
+      <display_name>Other nei</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Oxynotus centrina</name>
+      <state>active</state>
+      <id>d8958b1c-ef17-4656-9a8b-a69c9b2f012a</id>
+      <display_name>Oxynotus centrina</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Oxynotus paradoxus</name>
+      <state>active</state>
+      <id>297989bf-2351-44cc-9b41-84746515321e</id>
+      <display_name>Oxynotus paradoxus</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Palest O.T.</name>
+      <state>active</state>
+      <id>166bd909-9890-4ec2-a897-2e5dc04cdccd</id>
+      <display_name>Palest O.T.</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Panama</name>
+      <state>active</state>
+      <id>e68974a4-8113-4df6-8647-6f8dae44b5d4</id>
+      <display_name>Panama</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Philippines</name>
+      <state>active</state>
+      <id>e4653b3b-3436-42e7-b467-a002ba711b1f</id>
+      <display_name>Philippines</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Poland</name>
+      <state>active</state>
+      <id>a696a7f4-0f8f-430e-bf05-db3f3abb686e</id>
+      <display_name>Poland</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Portugal</name>
+      <state>active</state>
+      <id>eb23c99c-86c7-4013-97cf-ae854fa295aa</id>
+      <display_name>Portugal</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Prionace glauca</name>
+      <state>active</state>
+      <id>e0a0dd88-1443-46f2-b601-325daf3712cc</id>
+      <display_name>Prionace glauca</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Pseudocarcharias kamoharai</name>
+      <state>active</state>
+      <id>57712ad1-0cb8-47da-a070-6cb753ce0a1c</id>
+      <display_name>Pseudocarcharias kamoharai</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Pseudotriakis microdon</name>
+      <state>active</state>
+      <id>0a30f833-ea9e-42a1-9696-cf4f7a5cac0a</id>
+      <display_name>Pseudotriakis microdon</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Puerto Rico</name>
+      <state>active</state>
+      <id>7f454537-feb4-4a93-a9b5-f02eac66d6e6</id>
+      <display_name>Puerto Rico</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Purse seines</name>
+      <state>active</state>
+      <id>eaa7a8b8-356d-465d-aab6-d73da2dda99e</id>
+      <display_name>Purse seines</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Ranzania laevis</name>
+      <state>active</state>
+      <id>4a8e10b9-810c-49bb-8342-91661c8274d5</id>
+      <display_name>Ranzania laevis</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Rhincodon typus</name>
+      <state>active</state>
+      <id>e6c172d3-2b2e-4686-9a63-fcd3e8334d7f</id>
+      <display_name>Rhincodon typus</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Rhizoprionodon acutus</name>
+      <state>active</state>
+      <id>69ce1377-b1bc-4a5e-a763-2c2b9aac70eb</id>
+      <display_name>Rhizoprionodon acutus</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Rhizoprionodon spp</name>
+      <state>active</state>
+      <id>e64ac931-b894-4884-a20d-1738ac4f38ff</id>
+      <display_name>Rhizoprionodon spp</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Rhizoprionodon terraenovae</name>
+      <state>active</state>
+      <id>d29be6e6-e8be-4a5f-90c9-9a5eeb4a5768</id>
+      <display_name>Rhizoprionodon terraenovae</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Romania</name>
+      <state>active</state>
+      <id>17998086-f74a-4ced-9e7c-3cc0b2145df8</id>
+      <display_name>Romania</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Russian Fed</name>
+      <state>active</state>
+      <id>1d78db36-c513-47a2-8588-72fd5c92bfd0</id>
+      <display_name>Russian Fed</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Ruvettus pretiosus</name>
+      <state>active</state>
+      <id>decdcc3b-6cb9-474f-81f8-bb7d60f18f98</id>
+      <display_name>Ruvettus pretiosus</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Sao Tome Prn</name>
+      <state>active</state>
+      <id>6cb7ab0b-063c-4bfb-800e-74054ad6b818</id>
+      <display_name>Sao Tome Prn</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Sarda sarda</name>
+      <state>active</state>
+      <id>2143fc86-f788-45fe-9891-62364a72e299</id>
+      <display_name>Sarda sarda</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Scomber japonicus</name>
+      <state>active</state>
+      <id>bdd86a54-d530-4969-be91-ef4583af21f4</id>
+      <display_name>Scomber japonicus</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Scomberesox saurus</name>
+      <state>active</state>
+      <id>32265d86-1565-4d42-b204-3c3fef25c09c</id>
+      <display_name>Scomberesox saurus</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Scomberomorus brasiliensis</name>
+      <state>active</state>
+      <id>cb244303-7682-4eb2-8844-39d6842af523</id>
+      <display_name>Scomberomorus brasiliensis</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Scomberomorus cavalla</name>
+      <state>active</state>
+      <id>533864fb-f2f3-4d8f-86d2-6392f2a41031</id>
+      <display_name>Scomberomorus cavalla</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Scomberomorus commerson</name>
+      <state>active</state>
+      <id>6653d082-befe-46ab-9e71-d69ee5d025e6</id>
+      <display_name>Scomberomorus commerson</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Scomberomorus maculatus</name>
+      <state>active</state>
+      <id>810ed8f4-40b0-428d-b7ed-f483e8cbf651</id>
+      <display_name>Scomberomorus maculatus</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Scomberomorus niphonius</name>
+      <state>active</state>
+      <id>daad1fc2-5bbe-4a41-85af-24c046a4d44f</id>
+      <display_name>Scomberomorus niphonius</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Scomberomorus regalis</name>
+      <state>active</state>
+      <id>d41f4ccd-cc6f-492c-b8b4-f8fa1d500edd</id>
+      <display_name>Scomberomorus regalis</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Scomberomorus spp</name>
+      <state>active</state>
+      <id>4adbb5d5-7032-4452-8721-86910e9c844f</id>
+      <display_name>Scomberomorus spp</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Scomberomorus tritor</name>
+      <state>active</state>
+      <id>305da683-862a-4155-a572-15016e846013</id>
+      <display_name>Scomberomorus tritor</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Scombroidei</name>
+      <state>active</state>
+      <id>4f5044a8-f973-4aa3-9ff4-19deb6c3395a</id>
+      <display_name>Scombroidei</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Scyliorhinidae</name>
+      <state>active</state>
+      <id>a462e8fa-94fc-4c5b-bb9e-03ffce442990</id>
+      <display_name>Scyliorhinidae</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Scyliorhinus canicula</name>
+      <state>active</state>
+      <id>bf1c35d1-a3f1-4cfc-b891-94f161fa32a0</id>
+      <display_name>Scyliorhinus canicula</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Scyliorhinus spp</name>
+      <state>active</state>
+      <id>f5363710-2b12-44e0-9fb8-81d3ab6e6dbe</id>
+      <display_name>Scyliorhinus spp</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Scyliorhinus stellaris</name>
+      <state>active</state>
+      <id>182d7f63-b9c5-473c-ba86-b42278cf061f</id>
+      <display_name>Scyliorhinus stellaris</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Scymnodon obscurus</name>
+      <state>active</state>
+      <id>f7711b0f-18b0-4915-a39e-4d99b5283ee0</id>
+      <display_name>Scymnodon obscurus</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Scymnodon ringens</name>
+      <state>active</state>
+      <id>c220669f-e4ed-409d-ba97-c99f3dd66366</id>
+      <display_name>Scymnodon ringens</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Selachimorpha Pleurotremata</name>
+      <state>active</state>
+      <id>bdff83a1-9754-4a01-8e5d-0fb753e4814b</id>
+      <display_name>Selachimorpha Pleurotremata</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Senegal</name>
+      <state>active</state>
+      <id>3c30e80f-79d9-454c-b23f-579dd4e2e500</id>
+      <display_name>Senegal</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Serbia-Monte</name>
+      <state>active</state>
+      <id>0fd9a486-adfc-4618-a4e2-f184689b5194</id>
+      <display_name>Serbia-Monte</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Seriola dumerili</name>
+      <state>active</state>
+      <id>8aa7a32e-1be7-4490-83fc-e46789119683</id>
+      <display_name>Seriola dumerili</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Seriola lalandi</name>
+      <state>active</state>
+      <id>641cd391-d691-4f3b-a7cb-d3b005fc31f6</id>
+      <display_name>Seriola lalandi</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Seriola rivoliana</name>
+      <state>active</state>
+      <id>6e9058ee-7ce3-4293-8283-3e305b4641a6</id>
+      <display_name>Seriola rivoliana</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Seriola spp</name>
+      <state>active</state>
+      <id>052a2467-10d4-42ea-9da7-c58def61c55c</id>
+      <display_name>Seriola spp</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Seychelles</name>
+      <state>active</state>
+      <id>1e6ce00a-9fa4-44ce-9a9e-30409b0679fd</id>
+      <display_name>Seychelles</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Sierra Leone</name>
+      <state>active</state>
+      <id>9c173f61-5437-4753-a590-09221b81d1a7</id>
+      <display_name>Sierra Leone</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Somniosus microcephalus</name>
+      <state>active</state>
+      <id>7e7f77ab-cc99-48de-9192-b0ce1294704a</id>
+      <display_name>Somniosus microcephalus</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Somniosus rostratus</name>
+      <state>active</state>
+      <id>cc60a978-df81-4d64-b679-dd242b54aa06</id>
+      <display_name>Somniosus rostratus</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>South Africa</name>
+      <state>active</state>
+      <id>cc4a46cb-f426-4a06-b617-9c8f701620dc</id>
+      <display_name>South Africa</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Spain</name>
+      <state>active</state>
+      <id>83dd3771-9f0d-41d2-98be-7934221bf009</id>
+      <display_name>Spain</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Sphyraena barracuda</name>
+      <state>active</state>
+      <id>20ecf201-1afe-49fb-94c1-3ee159408a7e</id>
+      <display_name>Sphyraena barracuda</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Sphyrna lewini</name>
+      <state>active</state>
+      <id>04fe0646-50f8-4a42-9bb5-419681398c8b</id>
+      <display_name>Sphyrna lewini</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Sphyrna mokarran</name>
+      <state>active</state>
+      <id>3caf2b01-9b73-46fd-a9e1-d468ece3d572</id>
+      <display_name>Sphyrna mokarran</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Sphyrna spp</name>
+      <state>active</state>
+      <id>2eec8a6a-b4f0-4747-86c4-a74fbe56b5af</id>
+      <display_name>Sphyrna spp</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Sphyrna tiburo</name>
+      <state>active</state>
+      <id>ed04f12b-f54d-4cdd-8d05-57dcb8384c77</id>
+      <display_name>Sphyrna tiburo</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Sphyrna zygaena</name>
+      <state>active</state>
+      <id>4906421f-58f2-4d4a-8cb7-1d83d28c55ff</id>
+      <display_name>Sphyrna zygaena</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Sphyrnidae</name>
+      <state>active</state>
+      <id>24f1bef3-fc65-4960-a2f9-6c695bd0bf37</id>
+      <display_name>Sphyrnidae</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Squalidae</name>
+      <state>active</state>
+      <id>062c683d-7d24-4f42-82f6-9f758a3361e7</id>
+      <display_name>Squalidae</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Squalidae Scyliorhinidae</name>
+      <state>active</state>
+      <id>b3e32cfa-3cda-4538-b02b-bed2d7ab32ff</id>
+      <display_name>Squalidae Scyliorhinidae</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Squaliformes</name>
+      <state>active</state>
+      <id>050bff3c-d530-4f09-be6e-8b65fa87ae80</id>
+      <display_name>Squaliformes</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Squaliolus laticaudus</name>
+      <state>active</state>
+      <id>b5e17a99-9e80-4b2b-915c-e5426f2e854b</id>
+      <display_name>Squaliolus laticaudus</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Squalus acanthias</name>
+      <state>active</state>
+      <id>6d93789c-321a-4d0a-b1f8-f8e9163caf4c</id>
+      <display_name>Squalus acanthias</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Squalus blainville</name>
+      <state>active</state>
+      <id>f3ae615e-206c-4ffb-934e-78ea29f9d910</id>
+      <display_name>Squalus blainville</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Squalus megalops</name>
+      <state>active</state>
+      <id>ee611f26-6b19-44c9-bd7d-2e64b01c7374</id>
+      <display_name>Squalus megalops</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Squalus spp</name>
+      <state>active</state>
+      <id>82d6028c-bbfe-444a-9f47-6d2f1d1ce5a4</id>
+      <display_name>Squalus spp</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Squatina squatina</name>
+      <state>active</state>
+      <id>fda816ee-4c4d-4e11-af10-c1d5d5feaf8d</id>
+      <display_name>Squatina squatina</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Squatinidae</name>
+      <state>active</state>
+      <id>881a7206-e459-4b97-a12b-e92c1b9c69b7</id>
+      <display_name>Squatinidae</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>St Helena</name>
+      <state>active</state>
+      <id>1e96b161-245e-4cde-bb19-d0d741cf8ed5</id>
+      <display_name>St Helena</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>St Kitts Nev</name>
+      <state>active</state>
+      <id>87a28bb0-64e1-4515-9350-93963792f319</id>
+      <display_name>St Kitts Nev</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>St Lucia</name>
+      <state>active</state>
+      <id>94c88ab3-3536-40dc-a58f-2a1aadc6a08d</id>
+      <display_name>St Lucia</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>St Pier Mq</name>
+      <state>active</state>
+      <id>86b239ee-e82f-49b7-a821-fc304b41cb82</id>
+      <display_name>St Pier Mq</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>St Vincent</name>
+      <state>active</state>
+      <id>30f3b350-cbe8-455a-aa5c-f060505e1c09</id>
+      <display_name>St Vincent</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Suriname</name>
+      <state>active</state>
+      <id>2e64ccc6-ebb2-4f70-b441-b8fac72a2fbf</id>
+      <display_name>Suriname</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Sweden</name>
+      <state>active</state>
+      <id>e9e25e2e-20a8-41fb-bb07-2b5e9b932dc1</id>
+      <display_name>Sweden</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Syria</name>
+      <state>active</state>
+      <id>4ede2466-9ca5-46b3-b9e2-c69b207d9a71</id>
+      <display_name>Syria</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Taractes rubescens</name>
+      <state>active</state>
+      <id>a65bbf20-466a-43df-a53d-7a52073fd30c</id>
+      <display_name>Taractes rubescens</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Taractichthys steindachneri</name>
+      <state>active</state>
+      <id>b9190f2a-4773-4c05-9bc8-9965bfd9ff5a</id>
+      <display_name>Taractichthys steindachneri</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Tetrapturus albidus</name>
+      <state>active</state>
+      <id>9c55ae4f-f45b-4981-a827-6cd1761da643</id>
+      <display_name>Tetrapturus albidus</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Tetrapturus angustirostris</name>
+      <state>active</state>
+      <id>d342f8ad-f59f-4a66-90cc-678ef3820d28</id>
+      <display_name>Tetrapturus angustirostris</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Tetrapturus audax</name>
+      <state>active</state>
+      <id>6446ff5a-eaaa-4c8d-8e1b-cd29221e8780</id>
+      <display_name>Tetrapturus audax</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Tetrapturus belone</name>
+      <state>active</state>
+      <id>f6ed6a25-8a8d-4763-98f9-5e140aa1b5ec</id>
+      <display_name>Tetrapturus belone</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Tetrapturus georgii</name>
+      <state>active</state>
+      <id>ebf384c5-60a7-4b07-bcf2-dd079325d0c8</id>
+      <display_name>Tetrapturus georgii</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Tetrapturus pfluegeri</name>
+      <state>active</state>
+      <id>c3d7cf8e-37bc-4619-ad96-e8322c9a278e</id>
+      <display_name>Tetrapturus pfluegeri</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Thunnini</name>
+      <state>active</state>
+      <id>ac7f5f37-cd6c-4511-8224-256dc88b42c1</id>
+      <display_name>Thunnini</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Thunnus alalunga</name>
+      <state>active</state>
+      <id>08ad531a-dc48-46e2-8bd4-bfda9c20f649</id>
+      <display_name>Thunnus alalunga</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Thunnus albacares</name>
+      <state>active</state>
+      <id>7bfc248d-7b5a-476c-895d-bbe274cafd07</id>
+      <display_name>Thunnus albacares</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Thunnus atlanticus</name>
+      <state>active</state>
+      <id>655f2264-c10a-456e-bdb0-5696a4881a4f</id>
+      <display_name>Thunnus atlanticus</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Thunnus maccoyii</name>
+      <state>active</state>
+      <id>4556e4d3-365c-4cdc-9538-3b3a033f5eea</id>
+      <display_name>Thunnus maccoyii</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Thunnus obesus</name>
+      <state>active</state>
+      <id>9eab4e4d-5d3d-41f4-b5be-e7ea2e2e6d86</id>
+      <display_name>Thunnus obesus</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Thunnus spp</name>
+      <state>active</state>
+      <id>3b7052c0-27eb-4b13-b431-17ee59deaa2a</id>
+      <display_name>Thunnus spp</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Thunnus thynnus</name>
+      <state>active</state>
+      <id>b0aa7dd0-cdea-4df0-acf8-284eb90ba62f</id>
+      <display_name>Thunnus thynnus</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Togo</name>
+      <state>active</state>
+      <id>4e863bef-213f-47df-becc-438d0d487ff0</id>
+      <display_name>Togo</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Trammel nets</name>
+      <state>active</state>
+      <id>27d0912d-607d-4fa8-aadb-fe2a9e155f31</id>
+      <display_name>Trammel nets</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Traps nei</name>
+      <state>active</state>
+      <id>1da3c268-234a-466c-82da-eb881304ce01</id>
+      <display_name>Traps nei</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Trawls nei</name>
+      <state>active</state>
+      <id>7e7166d5-9f7d-4144-a929-5df8d4219ad1</id>
+      <display_name>Trawls nei</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Triakidae</name>
+      <state>active</state>
+      <id>9d965780-0b65-4fd8-99f4-434cc8b98f3a</id>
+      <display_name>Triakidae</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Triakis semifasciata</name>
+      <state>active</state>
+      <id>f8a730fa-8caa-4f2c-9d82-7f3e38875b82</id>
+      <display_name>Triakis semifasciata</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Trichiuridae</name>
+      <state>active</state>
+      <id>d6519fd9-7515-4589-bbf9-dd0ea99bbf2e</id>
+      <display_name>Trichiuridae</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Trinidad Tob</name>
+      <state>active</state>
+      <id>8fcb8fae-d240-4533-8f04-eecf149ef6bb</id>
+      <display_name>Trinidad Tob</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Trolling lines</name>
+      <state>active</state>
+      <id>f675d011-c42f-493c-86b4-118bd04b5f10</id>
+      <display_name>Trolling lines</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Tuna</name>
+      <state>active</state>
+      <id>e75b955a-1e8e-4703-9d05-9818b4d405bb</id>
+      <display_name>Tuna</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Tuna atlas</name>
+      <state>active</state>
+      <id>0105ba7d-38b3-4689-a037-221afd58be18</id>
+      <display_name>Tuna atlas</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Tunisia</name>
+      <state>active</state>
+      <id>76990a7f-aca5-4800-bd6f-c7b8a6bf679f</id>
+      <display_name>Tunisia</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Turkey</name>
+      <state>active</state>
+      <id>d57afed1-7c02-4d09-ba1b-22fabb6d10e8</id>
+      <display_name>Turkey</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Turks Caicos</name>
+      <state>active</state>
+      <id>4a35f372-4269-46fc-8b9b-d05595b59bef</id>
+      <display_name>Turks Caicos</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>UK</name>
+      <state>active</state>
+      <id>540149e6-1abd-48cd-acb6-c075720fb294</id>
+      <display_name>UK</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>USA</name>
+      <state>active</state>
+      <id>8fac299d-5f1c-4334-ae54-8c543f528e5f</id>
+      <display_name>USA</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>USSR</name>
+      <state>active</state>
+      <id>a76a1b96-e505-4632-adfe-4fe2ef593f3e</id>
+      <display_name>USSR</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Ukraine</name>
+      <state>active</state>
+      <id>7ec1263e-b352-4582-bbcc-cb4ebdeaab0b</id>
+      <display_name>Ukraine</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Unknown</name>
+      <state>active</state>
+      <id>c7fda126-062f-4865-b44b-78304bafc7c8</id>
+      <display_name>Unknown</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Uraspis secunda</name>
+      <state>active</state>
+      <id>8c86f50b-4a65-48a8-82da-f806a7d7097a</id>
+      <display_name>Uraspis secunda</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Uruguay</name>
+      <state>active</state>
+      <id>8999bcbe-7e67-4bd2-b323-f84a2e41467a</id>
+      <display_name>Uruguay</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Vanuatu</name>
+      <state>active</state>
+      <id>e4de79ef-8e61-4fc6-85f7-ce07151ce955</id>
+      <display_name>Vanuatu</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Venezuela</name>
+      <state>active</state>
+      <id>406f947d-4500-4587-9937-a7bdab2868b7</id>
+      <display_name>Venezuela</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Xiphias gladius</name>
+      <state>active</state>
+      <id>72c47907-6683-43b6-9d04-e4b4707a3060</id>
+      <display_name>Xiphias gladius</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>Yugoslav SFR</name>
+      <state>active</state>
+      <id>5cda295c-5973-4287-9d26-0470bbbe7d55</id>
+      <display_name>Yugoslav SFR</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>detailed data</name>
+      <state>active</state>
+      <id>d4b61759-703b-49ba-9f18-3f9bf9dfc3de</id>
+      <display_name>detailed data</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>nominal catch</name>
+      <state>active</state>
+      <id>b6b7ac4e-57a9-4b6a-80ca-22d48d2ad815</id>
+      <display_name>nominal catch</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>series</name>
+      <state>active</state>
+      <id>0930b241-adc2-4342-9f98-30db6e92ca6a</id>
+      <display_name>series</display_name>
+    </tags>
+    <tags>
+      <vocabulary_id>null</vocabulary_id>
+      <name>timeseries</name>
+      <state>active</state>
+      <id>97d9df79-2943-4e8d-bdb5-1860f8abe644</id>
+      <display_name>timeseries</display_name>
+    </tags>
+    <license_id>null</license_id>
+    <organization>
+      <created>2017-11-24T11:58:16.387657</created>
+      <image_url>https://services.d4science.org/image/layout_set_logo?img_id=21193</image_url>
+      <approval_status>approved</approval_status>
+      <name>fao_tunaatlas</name>
+      <description>The FAO Tuna Atlas VRE offers tools to centralize, harmonize and standardize multiple data source on tuna and bill fishes catches to feed 2 FAO tools:
+
+* the Atlas of Tuna and Billfish Catches
+* the the global tuna catches by stock
+</description>
+      <state>active</state>
+      <id>dc4b4349-f497-4c72-a2cb-8643fbcf6dc1</id>
+      <title>FAO TunaAtlas</title>
+      <is_organization>true</is_organization>
+      <type>organization</type>
+      <revision_id>da685e2a-bc39-493a-9b2b-acb8694c0ab7</revision_id>
+    </organization>
+    <name>annual-catch-of-tuna-tuna-like-and-shark-species-in-the-atlantic-ocean-1950-2015-aggregated-by</name>
+    <license_title>null</license_title>
+    <maintainer_email>bluebridge.catalogue@d4science.org</maintainer_email>
+  </result>
+  <help>https://ckan-d4s.d4science.org/api/3/action/help_show?name=package_show</help>
+  <success>true</success>
+</resource>
