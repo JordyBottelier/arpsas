@@ -173,4 +173,3 @@ def get_class_names(ytrue):
 if __name__ == '__main__':
 	experiment4_inliers1()
 	experiment4_inliers2()
-	experiment4_inliers3()
