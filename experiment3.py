@@ -51,8 +51,8 @@ def experiment3_inliers():
 	number_of_columns = 100
 	accuracies = []
 	# accuracies = [0.4, 0.4, 0.4]
-	classes = ['address', 'city', 'company_name', 'country', 'date', 'domain_name', 'email', 'gender', 'house_number',\
-	'kvk_number', 'legal_type', 'person_name', 'postcode', 'province', 'sbi_code', 'sbi_description', 'telephone_nr']
+	classes = ['city', 'country', 'date', 'gender', 'house_number',\
+	'legal_type', 'postcode', 'province', 'sbi_code', 'sbi_description', 'telephone_nr']
 	sf_main = Storage_Files(data_folder, classes)
 	tmp = []
 	for i in x:
@@ -122,8 +122,8 @@ def experiment3_outliers():
 	min_number_of_columns = 20
 	examples_per_class = 0
 
-	classes = ['address', 'city', 'company_name', 'country', 'date', 'domain_name', 'email', 'gender', 'house_number',\
-	'kvk_number', 'legal_type', 'person_name', 'postcode', 'province', 'sbi_code', 'sbi_description', 'telephone_nr']
+	classes = ['city', 'country', 'date', 'gender', 'house_number',\
+	'legal_type', 'postcode', 'province', 'sbi_code', 'sbi_description', 'telephone_nr']
 	sf_main = Storage_Files(data_folder, classes)
 	tmp_acc = []
 	tmp_prec = []

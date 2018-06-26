@@ -14,7 +14,7 @@ from os.path import isfile
 import os
 import math
 
-rounds = 3
+rounds = 1
 def execute_test(sm, test_folder, skip_unknown=False):
 	"""
 		for all the schemas in the test folder, read them and classify them, 
@@ -53,8 +53,8 @@ def experiment2_inliers():
 	examples_per_class = 0
 	accuracies = []
 	# accuracies = [0.4, 0.4, 0.4]
-	classes = ['address', 'city', 'company_name', 'country', 'date', 'domain_name', 'email', 'gender', 'house_number',\
-	'kvk_number', 'legal_type', 'person_name', 'postcode', 'province', 'sbi_code', 'sbi_description', 'telephone_nr']
+	classes = ['city', 'country', 'date', 'gender', 'house_number',\
+	'legal_type', 'postcode', 'province', 'sbi_code', 'sbi_description', 'telephone_nr']
 	sf_main = Storage_Files(data_folder, classes)
 	tmp = []
 	for i in range(min_number_of_columns, max_number_of_columns, step_size):
@@ -117,8 +117,8 @@ def experiment2_outliers():
 	recalls = []
 	fmeasures = []
 
-	classes = ['address', 'city', 'company_name', 'country', 'date', 'domain_name', 'email', 'gender', 'house_number',\
-	'kvk_number', 'legal_type', 'person_name', 'postcode', 'province', 'sbi_code', 'sbi_description', 'telephone_nr']
+	classes = ['city', 'country', 'date', 'gender', 'house_number',\
+	'legal_type', 'postcode', 'province', 'sbi_code', 'sbi_description', 'telephone_nr']
 	sf_main = Storage_Files(data_folder, classes)
 	tmp_acc = []
 	tmp_prec = []

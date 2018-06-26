@@ -85,14 +85,14 @@ data_map_main = {
 	}
 
 
-classes = os.listdir("../ckan_subset/prepared_learnset/")
+classes = os.listdir("ckan_subset/prepared_learnset/")
 gm = Graph_Maker()
 rounds = 3
 
 
 def get_letter(classname):
-	mapping = read_file("../ckan_subset/classname_reverse")
-	letter_to_ckan = read_file("../ckan_subset/classname_map")
+	mapping = read_file("ckan_subset/classname_reverse")
+	letter_to_ckan = read_file("ckan_subset/classname_map")
 	# print_dict(mapping)
 	try:
 		return mapping[classname]
@@ -102,8 +102,8 @@ def get_letter(classname):
 			if letter not in letter_to_ckan:
 				mapping[classname] = letter
 				letter_to_ckan[letter] = classname
-				store_file("../ckan_subset/classname_map", letter_to_ckan)
-				store_file("../ckan_subset/classname_reverse", mapping)
+				store_file("ckan_subset/classname_map", letter_to_ckan)
+				store_file("ckan_subset/classname_reverse", mapping)
 
 				return mapping[classname]
 
@@ -159,8 +159,8 @@ def execute_test_ckan(sm, test_folder, skip_unknown=False):
 	return actual, predicted
 
 def experiment4_inliers():
-	data_folder = "../ckan_subset/prepared_learnset/"
-	test_folder = '../ckan_subset/testset/xml_csv/'
+	data_folder = "ckan_subset/prepared_learnset/"
+	test_folder = 'ckan_subset/testset/xml_csv/'
 	gm.append_x(0)
 
 	xticks_x = [0, 1]
@@ -253,8 +253,8 @@ def experiment4_inliers():
 
 
 def experiment4_outliers():
-	data_folder = "../ckan_subset/prepared_learnset/"
-	test_folder = '../ckan_subset/testset/xml_csv/'
+	data_folder = "ckan_subset/prepared_learnset/"
+	test_folder = 'ckan_subset/testset/xml_csv/'
 	accuracies = []
 	precisions = []
 	recalls = []

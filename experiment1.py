@@ -56,8 +56,9 @@ def experiment1_inliers():
 	total_actual = []
 	total_predicted = []
 	# accuracies = [0.4, 0.4, 0.4]
-	classes = ['address', 'city', 'company_name', 'country', 'date', 'domain_name', 'email', 'gender', 'house_number',\
-	'kvk_number', 'legal_type', 'person_name', 'postcode', 'province', 'sbi_code', 'sbi_description', 'telephone_nr']
+	classes = ['city', 'country', 'date', 'gender', 'house_number',\
+	'legal_type', 'postcode', 'province', 'sbi_code', 'sbi_description', 'telephone_nr']
+	
 	sf_main = Storage_Files(data_folder, classes)
 	tmp = []
 	for i in range(0, rounds):
@@ -151,8 +152,8 @@ def experiment1_outliers():
 	recalls = []
 	fmeasures = []
 
-	classes = ['address', 'city', 'company_name', 'country', 'date', 'domain_name', 'email', 'gender', 'house_number',\
-	'kvk_number', 'legal_type', 'person_name', 'postcode', 'province', 'sbi_code', 'sbi_description', 'telephone_nr']
+	classes = ['city', 'country', 'date', 'gender', 'house_number',\
+	'legal_type', 'postcode', 'province', 'sbi_code', 'sbi_description', 'telephone_nr']
 	sf_main = Storage_Files(data_folder, classes)
 	tmp_acc = []
 	tmp_prec = []
@@ -309,6 +310,6 @@ def get_class_names(ytrue):
 	return res
 
 if __name__ == '__main__':
-	# experiment1_inliers()
+	experiment1_inliers()
 	# experiment1_outliers()
-	confusion_number_matcher()
+	# confusion_number_matcher()

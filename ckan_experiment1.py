@@ -42,11 +42,11 @@ headers_dict = {   'has_description': 2400,
     'type': 2400}
 
 
-classes = os.listdir("../ckan_subset/prepared_learnset/")
+classes = os.listdir("ckan_subset/prepared_learnset/")
 
 def get_letter(classname):
-	mapping = read_file("../ckan_subset/classname_reverse")
-	letter_to_ckan = read_file("../ckan_subset/classname_map")
+	mapping = read_file("ckan_subset/classname_reverse")
+	letter_to_ckan = read_file("ckan_subset/classname_map")
 	try:
 		return mapping[classname]
 	except: # class is apperently not present
@@ -55,8 +55,8 @@ def get_letter(classname):
 			if letter not in letter_to_ckan:
 				mapping[classname] = letter
 				letter_to_ckan[letter] = classname
-				store_file("../ckan_subset/classname_map", letter_to_ckan)
-				store_file("../ckan_subset/classname_reverse", mapping)
+				store_file("ckan_subset/classname_map", letter_to_ckan)
+				store_file("ckan_subset/classname_reverse", mapping)
 				return mapping[classname]
 
 def execute_test_ckan(sm, test_folder, skip_unknown=False):
@@ -104,8 +104,8 @@ def execute_test_ckan(sm, test_folder, skip_unknown=False):
 	return actual, predicted
 
 def experiment1_inliers():
-	data_folder = "../ckan_subset/prepared_learnset/"
-	test_folder = '../ckan_subset/testset/xml_csv/'
+	data_folder = "ckan_subset/prepared_learnset/"
+	test_folder = 'ckan_subset/testset/xml_csv/'
 	gm = Graph_Maker()
 	gm.store()
 	rounds = 5
@@ -195,8 +195,8 @@ def experiment1_outliers():
 		Run a full experiment on all matchers including outliers and
 		measure precision, recall, f-measure and accuracy
 	"""
-	data_folder = "../ckan_subset/prepared_learnset/"
-	test_folder = '../ckan_subset/testset/xml_csv/'
+	data_folder = "ckan_subset/prepared_learnset/"
+	test_folder = 'ckan_subset/testset/xml_csv/'
 	gm = Graph_Maker()
 	gm.store()
 	rounds = 5

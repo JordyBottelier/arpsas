@@ -32,8 +32,8 @@ def get_column(test_folder='data_test/'):
 
 def experiment5():
 	data_folder = 'data_train/'
-	class1 = ['address', 'city', 'company_name', 'country', 'date', 'domain_name', 'email', 'gender', 'house_number', 'legal_type'\
-	, 'person_name', 'postcode', 'province', 'sbi_code', 'kvk_number', 'telephone_nr']
+	class1 = ['city', 'country', 'date', 'gender', 'house_number',\
+	'legal_type', 'postcode', 'province', 'sbi_code', 'sbi_description', 'telephone_nr']
 	class2 = ['sbi_description']
 	data_map = {
 		"1": class1,
