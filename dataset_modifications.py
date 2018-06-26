@@ -17,8 +17,8 @@ def get_letter(classname):
 		For the ckan dataset, the classnames are very long, therefore we created a mapping to letters.
 		This method is used to actually retrieve a letter based on the classname. 
 	"""
-	mapping = read_file("../ckan_subset/classname_reverse")
-	letter_to_ckan = read_file("../ckan_subset/classname_map")
+	mapping = read_file("ckan_subset/classname_reverse")
+	letter_to_ckan = read_file("ckan_subset/classname_map")
 	try:
 		return mapping[classname]
 	except: # class is apperently not present
@@ -27,8 +27,8 @@ def get_letter(classname):
 			if letter not in letter_to_ckan:
 				mapping[classname] = letter
 				letter_to_ckan[letter] = classname
-				store_file("../ckan_subset/classname_map", letter_to_ckan)
-				store_file("../ckan_subset/classname_reverse", mapping)
+				store_file("ckan_subset/classname_map", letter_to_ckan)
+				store_file("ckan_subset/classname_reverse", mapping)
 				return mapping[classname]
 
 """
@@ -123,8 +123,8 @@ def prep_dataset_ckan(test_folder):
 	classname_map['unknown'] = 'unknown'
 	classname_reverse['unknown'] = 'unknown'
 	print_dict(classname_reverse)
-	store_file("../ckan_subset/classname_map", classname_map)
-	store_file("../ckan_subset/classname_reverse", classname_reverse)
+	store_file("ckan_subset/classname_map", classname_map)
+	store_file("ckan_subset/classname_reverse", classname_reverse)
 
 
 def prep_columns(column):
@@ -338,6 +338,6 @@ if __name__ == '__main__':
 	plot_learn_set_ckan()
 	plot_learn_set()
 	get_dataset_stats('data_test/')
-	test_folder = '../ckan_subset/testset/xml_csv/'
+	test_folder = 'ckan_subset/testset/xml_csv/'
 	get_dataset_stats_ckan(test_folder, title="CKAN Testset Statistics")
 

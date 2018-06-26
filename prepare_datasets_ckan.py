@@ -96,7 +96,7 @@ def redivide_set(data_folder_source, data_folder_target):
 	for filename in os.listdir(data_folder_source):
 		if filename[0:-4] in target_files:
 			total_path = data_folder_source + "/" + filename
-			shutil.copy2(total_path, '../ckan_subset/source2/' + filename)
+			shutil.copy2(total_path, 'ckan_subset/source2/' + filename)
 			print(filename)
 
 def split_learn_test(source_xml, source_rdf, target, learnset_size=0.7):
@@ -238,9 +238,9 @@ def match_columns(data_folder_xml, data_folder_rdf, num_entries=200):
 			headers.append('unknown')
 		columns.append(collection_xml[xml_key])
 	print_dict(mapping)
-	store_file("../ckan_subset/xml_rdf_map", mapping)
-	to_csv_headers_columns(headers, columns, "../ckan_subset/target/xml_source_parsed.csv")
-	to_csv(collection_rdf, "../ckan_subset/target/rdf_target.csv")
+	store_file("ckan_subset/xml_rdf_map", mapping)
+	to_csv_headers_columns(headers, columns, "ckan_subset/target/xml_source_parsed.csv")
+	to_csv(collection_rdf, "ckan_subset/target/rdf_target.csv")
 
 
 
@@ -315,7 +315,7 @@ def hasInt(myList):
 	return 0
 
 
-def create_csv_set_xml(folder, target_folder, mapfile="../ckan_subset/xml_rdf_map", num_per_col=50):
+def create_csv_set_xml(folder, target_folder, mapfile="ckan_subset/xml_rdf_map", num_per_col=50):
 	"""
 		create csv files from the xml files by flattening them into columns.
 		Num_per_col = number of xml files parsed to 1 csv
@@ -405,11 +405,11 @@ def create_csv_set_rdf(folder, target_folder, num_per_col=50):
 
 if __name__ == '__main__':
 
-	data_folder_rdf = '../ckan_subset/target2/'
-	data_folder_xml = '../ckan_subset/source2/'
+	data_folder_rdf = 'ckan_subset/target2/'
+	data_folder_xml = 'ckan_subset/source2/'
 	# match_columns(data_folder_xml, data_folder_rdf, 0)
-	create_csv_set_xml('../ckan_subset/learnset/xml/', '../ckan_subset/learnset/xml_csv/', num_per_col=50)
-	create_csv_set_xml('../ckan_subset/testset/xml/', '../ckan_subset/testset/xml_csv/', num_per_col=50)
+	create_csv_set_xml('ckan_subset/learnset/xml/', 'ckan_subset/learnset/xml_csv/', num_per_col=50)
+	create_csv_set_xml('ckan_subset/testset/xml/', 'ckan_subset/testset/xml_csv/', num_per_col=50)
 
-	create_csv_set_rdf('../ckan_subset/learnset/rdf/', '../ckan_subset/learnset/rdf_csv/', num_per_col=100)
-	create_csv_set_rdf('../ckan_subset/testset/rdf/', '../ckan_subset/testset/rdf_csv/', num_per_col=100)
+	create_csv_set_rdf('ckan_subset/learnset/rdf/', 'ckan_subset/learnset/rdf_csv/', num_per_col=100)
+	create_csv_set_rdf('ckan_subset/testset/rdf/', 'ckan_subset/testset/rdf_csv/', num_per_col=100)
